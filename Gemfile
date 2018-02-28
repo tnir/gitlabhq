@@ -21,7 +21,7 @@ gem 'grape-route-helpers', '~> 2.1.0'
 gem 'faraday', '~> 0.12'
 
 # Authentication libraries
-gem 'devise', '~> 4.2'
+gem 'devise', '~> 4.4'
 gem 'doorkeeper', '~> 4.2.0'
 gem 'doorkeeper-openid_connect', '~> 1.2.0'
 gem 'omniauth', '~> 1.4.2'
