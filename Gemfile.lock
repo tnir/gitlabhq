@@ -396,9 +396,9 @@ GEM
     hipchat (1.5.2)
       httparty
       mimemagic
-    html-pipeline (1.11.0)
+    html-pipeline (2.7.1)
       activesupport (>= 2)
-      nokogiri (~> 1.4)
+      nokogiri (>= 1.4)
     html2text (0.2.0)
       nokogiri (~> 1.6)
     htmlentities (4.3.4)
@@ -415,7 +415,7 @@ GEM
       json (~> 1.8)
       multi_xml (>= 0.5.2)
     httpclient (2.8.2)
-    i18n (0.9.1)
+    i18n (0.9.5)
       concurrent-ruby (~> 1.0)
     ice_nine (0.11.2)
     influxdb (0.2.3)
@@ -933,7 +933,7 @@ GEM
     truncato (0.7.10)
       htmlentities (~> 4.3.1)
       nokogiri (~> 1.8.0, >= 1.7.0)
-    tzinfo (1.2.4)
+    tzinfo (1.2.5)
       thread_safe (~> 0.1)
     u2f (0.2.1)
     uber (0.1.0)
@@ -1084,7 +1084,7 @@ DEPENDENCIES
   hashie-forbidden_attributes
   health_check (~> 2.6.0)
   hipchat (~> 1.5.0)
-  html-pipeline (~> 1.11.0)
+  html-pipeline (~> 2.7.1)
   html2text
   httparty (~> 0.13.3)
   influxdb (~> 0.2)

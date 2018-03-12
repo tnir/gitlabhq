@@ -122,7 +122,7 @@ gem 'unf', '~> 0.1.4'
 gem 'seed-fu', '~> 2.3.7'
 
 # Markdown and HTML processing
-gem 'html-pipeline', '~> 1.11.0'
+gem 'html-pipeline', '~> 2.7.1'
 gem 'deckar01-task_list', '2.0.0'
 gem 'gitlab-markup', '~> 1.6.2'
 gem 'redcarpet', '~> 3.4'
