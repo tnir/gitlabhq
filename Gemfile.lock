@@ -391,7 +391,7 @@ GEM
     hashie (3.5.7)
     hashie-forbidden_attributes (0.1.1)
       hashie (>= 3.0)
-    health_check (2.6.0)
+    health_check (2.7.0)
       rails (>= 4.0)
     hipchat (1.5.2)
       httparty
@@ -496,7 +496,7 @@ GEM
       mime-types-data (~> 3.2015)
     mime-types-data (3.2016.0521)
     mimemagic (0.3.0)
-    mini_mime (0.1.4)
+    mini_mime (1.0.0)
     mini_portile2 (2.3.0)
     minitest (5.7.0)
     mousetrap-rails (1.4.6)
@@ -676,8 +676,8 @@ GEM
       sprockets-rails
     rails-deprecated_sanitizer (1.0.3)
       activesupport (>= 4.2.0.alpha)
-    rails-dom-testing (1.0.8)
-      activesupport (>= 4.2.0.beta, < 5.0)
+    rails-dom-testing (1.0.9)
+      activesupport (>= 4.2.0, < 5.0)
       nokogiri (~> 1.6)
       rails-deprecated_sanitizer (>= 1.0.1)
     rails-html-sanitizer (1.0.3)
@@ -1077,7 +1077,7 @@ DEPENDENCIES
   haml_lint (~> 0.26.0)
   hamlit (~> 2.6.1)
   hashie-forbidden_attributes
-  health_check (~> 2.6.0)
+  health_check (~> 2.7.0)
   hipchat (~> 1.5.0)
   html-pipeline (~> 1.11.0)
   html2text
