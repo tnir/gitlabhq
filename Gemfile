@@ -272,7 +272,7 @@ gem 'ruby_parser', '~> 3.8', require: false
 gem 'rails-i18n', '~> 4.0.9'
 gem 'gettext_i18n_rails', '~> 1.8.0'
 gem 'gettext_i18n_rails_js', '~> 1.2.0'
-gem 'gettext', '~> 3.2.2', require: false, group: :development
+gem 'gettext', '~> 3.2.9', require: false, group: :development
 
 gem 'batch-loader', '~> 1.2.1'
 
