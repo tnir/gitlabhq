@@ -249,7 +249,7 @@ gem 'webpack-rails', '~> 0.9.10'
 gem 'rack-proxy', '~> 0.6.0'
 
 gem 'sass-rails', '~> 5.0.6'
-gem 'uglifier', '~> 2.7.2'
+gem 'uglifier', '~> 4.1.8'
 
 gem 'addressable', '~> 2.5.2'
 gem 'bootstrap-sass', '~> 3.3.0'
