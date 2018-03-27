@@ -434,7 +434,7 @@ gem 'flipper-active_record', '~> 0.13.0'
 gem 'flipper-active_support_cache_store', '~> 0.13.0'
 
 # Structured logging
-gem 'lograge', '~> 0.5'
+gem 'lograge', '~> 0.9'
 gem 'grape_logging', '~> 1.7'
 
 # Asset synchronization
