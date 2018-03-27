@@ -17,7 +17,7 @@ gem 'rails', gem_versions['rails']
 gem 'rails-deprecated_sanitizer', '~> 1.0.3'
 
 # Responders respond_to and respond_with
-gem 'responders', '~> 2.0'
+gem 'responders', '~> 2.4'
 
 gem 'sprockets', '~> 3.7.0'
 
