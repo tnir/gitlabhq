@@ -153,7 +153,7 @@ gem 'bootstrap_form', '~> 2.7.0'
 gem 'nokogiri', '~> 1.8.2'
 
 # Diffs
-gem 'diffy', '~> 3.1.0'
+gem 'diffy', '~> 3.2.0'
 
 # Application server
 group :unicorn do
