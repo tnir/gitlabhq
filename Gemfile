@@ -224,7 +224,7 @@ gem 'ruby-fogbugz', '~> 0.2.1'
 gem 'kubeclient', '~> 3.0'
 
 # d3
-gem 'd3_rails', '~> 3.5.0'
+gem 'd3_rails', '~> 4.1.1'
 
 # Sanitize user input
 gem 'sanitize', '~> 2.0'
