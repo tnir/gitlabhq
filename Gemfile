@@ -356,7 +356,7 @@ group :development, :test do
 
   gem 'gitlab-styles', '~> 2.3', require: false
   # Pin these dependencies, otherwise a new rule could break the CI pipelines
-  gem 'rubocop', '~> 0.52.1'
+  gem 'rubocop', '~> 0.54.0'
   gem 'rubocop-rspec', '~> 1.22.1'
 
   gem 'scss_lint', '~> 0.56.0', require: false
