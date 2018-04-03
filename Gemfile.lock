@@ -1019,7 +1019,7 @@ DEPENDENCIES
   capybara (~> 2.15)
   capybara-screenshot (~> 1.0.0)
   carrierwave (~> 1.2)
-  charlock_holmes (~> 0.7.5)
+  charlock_holmes (~> 0.7.6)
   chronic (~> 0.10.2)
   chronic_duration (~> 0.10.6)
   commonmarker (~> 0.17)
