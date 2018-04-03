@@ -330,7 +330,7 @@ group :development, :test do
   gem 'awesome_print', '~> 1.2.0', require: false
   gem 'fuubar', '~> 2.2.0'
 
-  gem 'database_cleaner', '~> 1.5.0'
+  gem 'database_cleaner', '~> 1.6.2'
   gem 'factory_bot_rails', '~> 4.8.2'
   gem 'rspec-rails', '~> 3.6.0'
   gem 'rspec-retry', '~> 0.4.5'
