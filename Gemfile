@@ -247,7 +247,7 @@ gem 'ace-rails-ap', '~> 4.1.0'
 gem 'mousetrap-rails', '~> 1.4.6'
 
 # Detect and convert string character encoding
-gem 'charlock_holmes', '~> 0.7.5'
+gem 'charlock_holmes', '~> 0.7.6'
 
 # Faster blank
 gem 'fast_blank'
