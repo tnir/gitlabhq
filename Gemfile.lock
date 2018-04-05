@@ -213,7 +213,7 @@ GEM
       multi_json
     fast_blank (1.0.0)
     fast_gettext (1.6.0)
-    ffaker (2.4.0)
+    ffaker (2.9.0)
     ffi (1.9.18)
     flay (2.10.0)
       erubis (~> 2.7.0)
@@ -1041,7 +1041,7 @@ DEPENDENCIES
   factory_bot_rails (~> 4.8.2)
   faraday (~> 0.12)
   fast_blank
-  ffaker (~> 2.4)
+  ffaker (~> 2.9)
   flay (~> 2.10.0)
   flipper (~> 0.13.0)
   flipper-active_record (~> 0.13.0)
