@@ -347,7 +347,7 @@ group :development, :test do
   gem 'ffaker', '~> 2.4'
 
   gem 'capybara', '~> 2.15'
-  gem 'capybara-screenshot', '~> 1.0.0'
+  gem 'capybara-screenshot', '~> 1.0.19'
   gem 'selenium-webdriver', '~> 3.5'
 
   gem 'spring', '~> 2.0.0'
