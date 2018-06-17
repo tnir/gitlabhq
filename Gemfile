@@ -12,11 +12,11 @@ gem_versions['rails-i18n']                      = rails5? ? '~> 5.1'   : '~> 4.0
 
 source 'https://rubygems.org'
 
-gem 'rails', gem_versions['rails']
+gem 'rails', '5.0.0'
 gem 'rails-deprecated_sanitizer', '~> 1.0.3'
 
 # Responders respond_to and respond_with
-gem 'responders', '~> 2.0'
+gem 'responders', '~> 2.4', '>= 2.4.0'
 
 gem 'sprockets', '~> 3.7.0'
 
@@ -33,9 +33,9 @@ gem 'grape-route-helpers', '~> 2.1.0'
 gem 'faraday', '~> 0.12'
 
 # Authentication libraries
-gem 'devise', '~> 4.4'
-gem 'doorkeeper', '~> 4.3'
-gem 'doorkeeper-openid_connect', '~> 1.3'
+gem 'devise', '~> 4.4', '>= 4.4.3'
+gem 'doorkeeper', '~> 4.3', '>= 4.3.2'
+gem 'doorkeeper-openid_connect', '~> 1.3', '>= 1.3.0'
 gem 'omniauth', '~> 1.8'
 gem 'omniauth-auth0', '~> 2.0.0'
 gem 'omniauth-azure-oauth2', '~> 0.0.9'
@@ -81,7 +81,7 @@ gem 'net-ldap'
 
 # Git Wiki
 # Required manually in config/initializers/gollum.rb to control load order
-gem 'gitlab-gollum-lib', '~> 4.2', require: false
+gem 'gitlab-gollum-lib', '~> 4.2', '>= 4.2.7.5', require: false
 
 gem 'gitlab-gollum-rugged_adapter', '~> 0.4.4', require: false
 
@@ -106,7 +106,7 @@ gem 'hamlit', '~> 2.6.1'
 gem 'carrierwave', '~> 1.2'
 
 # Drag and Drop UI
-gem 'dropzonejs-rails', '~> 0.7.1'
+gem 'dropzonejs-rails', '~> 0.7.2'
 
 # for backups
 gem 'fog-aws', '~> 2.0.1'
@@ -222,7 +222,7 @@ gem 'ruby-fogbugz', '~> 0.2.1'
 gem 'kubeclient', '~> 3.0'
 
 # Sanitize user input
-gem 'sanitize', '~> 2.0'
+gem 'sanitize', '~> 4.6', '>= 4.6.3'
 gem 'babosa', '~> 1.0.2'
 
 # Sanitizes SVG input
@@ -257,7 +257,7 @@ gem 'sass-rails', '~> 5.0.6'
 gem 'uglifier', '~> 2.7.2'
 
 gem 'addressable', '~> 2.5.2'
-gem 'font-awesome-rails', '~> 4.7'
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.1'
 gem 'gemojione', '~> 3.3'
 gem 'gon', '~> 6.2'
 gem 'jquery-atwho-rails', '~> 1.3.2'
@@ -273,9 +273,9 @@ gem 'premailer-rails', '~> 1.9.7'
 
 # I18n
 gem 'ruby_parser', '~> 3.8', require: false
-gem 'rails-i18n', gem_versions['rails-i18n']
+gem 'rails-i18n', '5.0.0'
 gem 'gettext_i18n_rails', '~> 1.8.0'
-gem 'gettext_i18n_rails_js', '~> 1.3'
+gem 'gettext_i18n_rails_js', '~> 1.3', '>= 1.3.0'
 gem 'gettext', '~> 3.2.2', require: false, group: :development
 
 gem 'batch-loader', '~> 1.2.1'
@@ -360,7 +360,7 @@ group :development, :test do
   gem 'license_finder', '~> 3.1', require: false
   gem 'knapsack', '~> 1.16'
 
-  gem 'activerecord_sane_schema_dumper', gem_versions['activerecord_sane_schema_dumper']
+  gem 'activerecord_sane_schema_dumper', '1.0'
 
   gem 'stackprof', '~> 0.2.10', require: false
 
@@ -426,7 +426,7 @@ gem 'flipper-active_record', '~> 0.13.0'
 gem 'flipper-active_support_cache_store', '~> 0.13.0'
 
 # Structured logging
-gem 'lograge', '~> 0.5'
+gem 'lograge', '~> 0.10', '>= 0.10.0'
 gem 'grape_logging', '~> 1.7'
 
 # Asset synchronization
