@@ -394,7 +394,7 @@ GEM
     hipchat (1.5.2)
       httparty
       mimemagic
-    html-pipeline (2.7.1)
+    html-pipeline (2.8.0)
       activesupport (>= 2)
       nokogiri (>= 1.4)
     html2text (0.2.0)
@@ -512,7 +512,7 @@ GEM
     net-ldap (0.16.0)
     net-ssh (5.0.1)
     netrc (0.11.0)
-    nokogiri (1.8.2)
+    nokogiri (1.8.3)
       mini_portile2 (~> 2.3.0)
     nokogumbo (1.5.0)
       nokogiri
@@ -1065,7 +1065,7 @@ DEPENDENCIES
   hashie-forbidden_attributes
   health_check (~> 2.6.0)
   hipchat (~> 1.5.0)
-  html-pipeline (~> 2.7.1)
+  html-pipeline (~> 2.8.0)
   html2text
   httparty (~> 0.13.3)
   icalendar
