@@ -18,7 +18,7 @@ gem 'rails-deprecated_sanitizer', '~> 1.0.3'
 # Responders respond_to and respond_with
 gem 'responders', '~> 2.0'
 
-gem 'sprockets', '~> 3.7.0'
+gem 'sprockets', '~> 3.7.2'
 
 # Default values for AR models
 gem 'default_value_for', gem_versions['default_value_for']
