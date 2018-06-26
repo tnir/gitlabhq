@@ -174,7 +174,7 @@ gem 'redis-namespace', '~> 1.6.0'
 gem 'sidekiq-limit_fetch', '~> 3.4', require: false
 
 # Cron Parser
-gem 'rufus-scheduler', '~> 3.4'
+gem 'rufus-scheduler', '~> 3.5'
 
 # HTTP requests
 gem 'httparty', '~> 0.13.3'
