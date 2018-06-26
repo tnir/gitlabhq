@@ -207,7 +207,7 @@ GEM
     fast_blank (1.0.0)
     fast_gettext (1.6.0)
     ffaker (2.4.0)
-    ffi (1.9.18)
+    ffi (1.9.23)
     flay (2.10.0)
       erubis (~> 2.7.0)
       path_expander (~> 1.0)
