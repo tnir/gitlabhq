@@ -315,7 +315,7 @@ group :development do
   gem 'rblineprof', '~> 0.3.6', platform: :mri, require: false
 
   # Better errors handler
-  gem 'better_errors', '~> 2.1.0'
+  gem 'better_errors', '~> 2.4.0'
   gem 'binding_of_caller', '~> 0.7.2'
 
   # thin instead webrick
