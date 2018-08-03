@@ -303,7 +303,7 @@ gem 'peek-sidekiq', '~> 1.0.3'
 # Metrics
 group :metrics do
   gem 'method_source', '~> 0.8', require: false
-  gem 'influxdb', '~> 0.2', require: false
+  gem 'influxdb', '~> 0.6', require: false
 
   # Prometheus
   gem 'prometheus-client-mmap', '~> 0.9.4'
