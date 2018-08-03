@@ -707,7 +707,7 @@ GEM
       trollop (>= 1.16.2)
     rdoc (6.0.4)
     re2 (1.1.1)
-    recaptcha (3.0.0)
+    recaptcha (4.9.0)
       json
     recursive-open-struct (1.1.0)
     redcarpet (3.4.0)
@@ -1142,7 +1142,7 @@ DEPENDENCIES
   rbtrace (~> 0.4)
   rdoc (~> 6.0)
   re2 (~> 1.1.1)
-  recaptcha (~> 3.0)
+  recaptcha (~> 4.9)
   redcarpet (~> 3.4)
   redis (~> 3.2)
   redis-namespace (~> 1.6.0)
