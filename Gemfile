@@ -28,7 +28,7 @@ gem 'mysql2', '~> 0.4.10', group: :mysql
 gem 'pg', '~> 0.18.2', group: :postgres
 
 gem 'rugged', '~> 0.27'
-gem 'grape-path-helpers', '~> 1.0'
+gem 'grape-path-helpers', '~> 1.0', '>= 1.0.6'
 
 gem 'faraday', '~> 0.12'
 
@@ -89,7 +89,7 @@ gem 'gitlab-gollum-rugged_adapter', '~> 0.4.4', require: false
 gem 'github-linguist', '~> 5.3.3', require: 'linguist'
 
 # API
-gem 'grape', '~> 1.0'
+gem 'grape', '~> 1.1', '>= 1.1.0'
 gem 'grape-entity', '~> 0.7.1'
 gem 'rack-cors', '~> 1.0.0', require: 'rack/cors'
 
@@ -438,7 +438,7 @@ gem 'flipper-active_support_cache_store', '~> 0.13.0'
 
 # Structured logging
 gem 'lograge', '~> 0.5'
-gem 'grape_logging', '~> 1.7'
+gem 'grape_logging', '~> 1.7', '>= 1.7.0'
 
 # Asset synchronization
 gem 'asset_sync', '~> 2.4'
