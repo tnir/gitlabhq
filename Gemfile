@@ -352,7 +352,7 @@ group :development, :test do
   gem 'capybara-screenshot', '~> 1.0.0'
   gem 'selenium-webdriver', '~> 3.12'
 
-  gem 'spring', '~> 2.0.0'
+  gem 'spring', '~> 2.0.2'
   gem 'spring-commands-rspec', '~> 1.0.4'
 
   gem 'gitlab-styles', '~> 2.4', require: false
