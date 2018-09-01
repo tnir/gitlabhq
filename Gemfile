@@ -177,7 +177,7 @@ gem 'sidekiq-limit_fetch', '~> 3.4', require: false
 gem 'rufus-scheduler', '~> 3.4'
 
 # HTTP requests
-gem 'httparty', '~> 0.13.3'
+gem 'httparty', '~> 0.16.2'
 
 # Colored output to console
 gem 'rainbow', '~> 3.0'
