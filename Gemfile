@@ -120,7 +120,7 @@ gem 'fog-google', '~> 1.7.1'
 gem 'fog-local', '~> 0.3'
 gem 'fog-openstack', '~> 0.1'
 gem 'fog-rackspace', '~> 0.1.1'
-gem 'fog-aliyun', '~> 0.2.0'
+gem 'fog-aliyun', '~> 0.2.1'
 
 # for Google storage
 gem 'google-api-client', '~> 0.23'

@@ -224,7 +224,7 @@ GEM
     flowdock (0.7.1)
       httparty (~> 0.7)
       multi_json
-    fog-aliyun (0.2.0)
+    fog-aliyun (0.2.1)
       fog-core (~> 1.27)
       fog-json (~> 1.0)
       ipaddress (~> 0.8)
@@ -1028,7 +1028,7 @@ DEPENDENCIES
   flipper (~> 0.13.0)
   flipper-active_record (~> 0.13.0)
   flipper-active_support_cache_store (~> 0.13.0)
-  fog-aliyun (~> 0.2.0)
+  fog-aliyun (~> 0.2.1)
   fog-aws (~> 2.0.1)
   fog-core (~> 1.44)
   fog-google (~> 1.7.1)
