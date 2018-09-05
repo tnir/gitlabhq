@@ -148,8 +148,8 @@ GEM
       html-pipeline
     declarative (0.0.10)
     declarative-option (0.1.0)
-    default_value_for (3.0.2)
-      activerecord (>= 3.2.0, < 5.1)
+    default_value_for (3.0.5)
+      activerecord (>= 3.2.0, < 5.2)
     descendants_tracker (0.0.4)
       thread_safe (~> 0.3, >= 0.3.1)
     device_detector (1.0.0)
