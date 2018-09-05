@@ -283,7 +283,7 @@ gem 'sentry-raven', '~> 2.7'
 gem 'premailer-rails', '~> 1.9.7'
 
 # I18n
-gem 'ruby_parser', '~> 3.8', require: false
+gem 'ruby_parser', '~> 3.11', require: false
 gem 'rails-i18n', gem_versions['rails-i18n']
 gem 'gettext_i18n_rails', '~> 1.8.0'
 gem 'gettext_i18n_rails_js', '~> 1.3'
