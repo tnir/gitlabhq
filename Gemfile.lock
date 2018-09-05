@@ -609,7 +609,7 @@ GEM
       atomic (>= 1.0.0)
       peek
       sidekiq
-    pg (0.18.4)
+    pg (1.1.2)
     po_to_json (1.0.1)
       json (>= 1.6.0)
     posix-spawn (0.3.13)
@@ -1115,7 +1115,7 @@ DEPENDENCIES
   peek-rblineprof (~> 0.2.0)
   peek-redis (~> 1.2.0)
   peek-sidekiq (~> 1.0.3)
-  pg (~> 0.18.2)
+  pg (~> 1.1.2)
   premailer-rails (~> 1.9.7)
   prometheus-client-mmap (~> 0.9.4)
   pry-byebug (~> 3.4.1)
