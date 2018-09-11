@@ -376,7 +376,7 @@ group :development, :test do
 
   gem 'stackprof', '~> 0.2.10', require: false
 
-  gem 'simple_po_parser', '~> 1.1.2', require: false
+  gem 'simple_po_parser', '~> 1.1.3', require: false
 
   gem 'timecop', '~> 0.8.0'
 end
