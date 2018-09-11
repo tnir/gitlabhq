@@ -264,7 +264,7 @@ gem 'chronic', '~> 0.10.2'
 gem 'chronic_duration', '~> 0.10.6'
 
 gem 'webpack-rails', '~> 0.9.10'
-gem 'rack-proxy', '~> 0.6.0'
+gem 'rack-proxy', '~> 0.6.4'
 
 gem 'sass-rails', '~> 5.0.6'
 gem 'uglifier', '~> 2.7.2'
