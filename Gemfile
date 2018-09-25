@@ -33,7 +33,7 @@ gem 'grape-path-helpers', '~> 1.0'
 gem 'faraday', '~> 0.12'
 
 # Authentication libraries
-gem 'devise', '~> 4.4'
+gem 'devise', '~> 4.5'
 gem 'doorkeeper', '~> 4.3'
 gem 'doorkeeper-openid_connect', '~> 1.5'
 gem 'omniauth', '~> 1.8'
@@ -178,7 +178,7 @@ gem 'redis-namespace', '~> 1.6.0'
 gem 'rufus-scheduler', '~> 3.4'
 
 # HTTP requests
-gem 'httparty', '~> 0.13.3'
+gem 'httparty', '~> 0.16.2'
 
 # Colored output to console
 gem 'rainbow', '~> 3.0'
@@ -265,7 +265,7 @@ gem 'chronic_duration', '~> 0.10.6'
 gem 'webpack-rails', '~> 0.9.10'
 gem 'rack-proxy', '~> 0.6.0'
 
-gem 'sass-rails', '~> 5.0.6'
+gem 'sass-rails', '~> 5.0.7'
 gem 'uglifier', '~> 2.7.2'
 
 gem 'addressable', '~> 2.5.2'
@@ -281,7 +281,7 @@ gem 'base32', '~> 0.3.0'
 # Sentry integration
 gem 'sentry-raven', '~> 2.7'
 
-gem 'premailer-rails', '~> 1.9.7'
+gem 'premailer-rails', '~> 1.10.2'
 
 # I18n
 gem 'ruby_parser', '~> 3.8', require: false
@@ -322,7 +322,7 @@ group :development do
   gem 'binding_of_caller', '~> 0.7.2'
 
   # thin instead webrick
-  gem 'thin', '~> 1.7.0'
+  gem 'thin', '~> 1.7.2'
 end
 
 group :development, :test do
@@ -332,11 +332,11 @@ group :development, :test do
   gem 'pry-rails', '~> 0.3.4'
 
   gem 'awesome_print', require: false
-  gem 'fuubar', '~> 2.2.0'
+  gem 'fuubar', '~> 2.3.2'
 
   gem 'database_cleaner', '~> 1.5.0'
   gem 'factory_bot_rails', '~> 4.8.2'
-  gem 'rspec-rails', '~> 3.7.0'
+  gem 'rspec-rails', '~> 3.8.0'
   gem 'rspec-retry', '~> 0.4.5'
   gem 'rspec_profiling', '~> 0.0.5'
   gem 'rspec-set', '~> 0.1.3'
@@ -362,7 +362,7 @@ group :development, :test do
 
   gem 'scss_lint', '~> 0.56.0', require: false
   gem 'haml_lint', '~> 0.26.0', require: false
-  gem 'simplecov', '~> 0.14.0', require: false
+  gem 'simplecov', '~> 0.16.1', require: false
   gem 'bundler-audit', '~> 0.5.0', require: false
 
   gem 'benchmark-ips', '~> 2.3.0', require: false
@@ -432,9 +432,9 @@ gem 'google-protobuf', '= 3.5.1'
 gem 'toml-rb', '~> 1.0.0', require: false
 
 # Feature toggles
-gem 'flipper', '~> 0.13.0'
-gem 'flipper-active_record', '~> 0.13.0'
-gem 'flipper-active_support_cache_store', '~> 0.13.0'
+gem 'flipper', '~> 0.16.0'
+gem 'flipper-active_record', '~> 0.16.0'
+gem 'flipper-active_support_cache_store', '~> 0.16.0'
 
 # Structured logging
 gem 'lograge', '~> 0.5'
