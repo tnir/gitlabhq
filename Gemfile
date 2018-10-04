@@ -318,7 +318,7 @@ group :development do
   gem 'binding_of_caller', '~> 0.7.2'
 
   # thin instead webrick
-  gem 'thin', '~> 1.7.0'
+  gem 'thin', '~> 1.7.2'
 end
 
 group :development, :test do

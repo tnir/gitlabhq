@@ -1166,7 +1166,7 @@ DEPENDENCIES
   sys-filesystem (~> 1.1.6)
   test-prof (~> 0.2.5)
   test_after_commit (~> 1.1)
-  thin (~> 1.7.0)
+  thin (~> 1.7.2)
   timecop (~> 0.8.0)
   toml-rb (~> 1.0.0)
   truncato (~> 0.7.9)
