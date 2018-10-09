@@ -84,7 +84,7 @@ gem 'net-ldap'
 gem 'gitlab-gollum-lib', '~> 4.2', require: false
 
 # Language detection
-gem 'github-linguist', '~> 5.3.3', require: 'linguist'
+gem 'github-linguist', '~> 7.0.0', require: 'linguist'
 
 # API
 gem 'grape', '~> 1.1'
