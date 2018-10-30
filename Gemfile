@@ -239,7 +239,7 @@ gem 'loofah', '~> 2.2'
 gem 'licensee', '~> 8.9'
 
 # Protect against bruteforcing
-gem 'rack-attack', '~> 4.4.1'
+gem 'rack-attack', '~> 5.4.1'
 
 # Ace editor
 gem 'ace-rails-ap', '~> 4.1.0'
