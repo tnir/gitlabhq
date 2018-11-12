@@ -354,7 +354,7 @@ GEM
       hashie (>= 3.0)
     health_check (2.6.0)
       rails (>= 4.0)
-    hipchat (1.5.2)
+    hipchat (1.6.0)
       httparty
       mimemagic
     html-pipeline (2.8.4)
@@ -454,7 +454,7 @@ GEM
     mime-types (3.2.2)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2018.0812)
-    mimemagic (0.3.0)
+    mimemagic (0.3.2)
     mini_magick (4.8.0)
     mini_mime (1.0.1)
     mini_portile2 (2.3.0)
@@ -1018,7 +1018,7 @@ DEPENDENCIES
   hangouts-chat (~> 0.0.5)
   hashie-forbidden_attributes
   health_check (~> 2.6.0)
-  hipchat (~> 1.5.0)
+  hipchat (~> 1.6.0)
   html-pipeline (~> 2.8)
   html2text
   httparty (~> 0.13.3)
