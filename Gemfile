@@ -245,7 +245,7 @@ gem 'licensee', '~> 8.9'
 gem 'rack-attack', '~> 4.4.1'
 
 # Ace editor
-gem 'ace-rails-ap', '~> 4.1.0'
+gem 'ace-rails-ap', '~> 4.1.4'
 
 # Detect and convert string character encoding
 gem 'charlock_holmes', '~> 0.7.5'

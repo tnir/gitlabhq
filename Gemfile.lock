@@ -3,7 +3,7 @@ GEM
   specs:
     RedCloth (4.3.2)
     abstract_type (0.0.7)
-    ace-rails-ap (4.1.2)
+    ace-rails-ap (4.1.4)
     actioncable (5.0.7)
       actionpack (= 5.0.7)
       nio4r (>= 1.2, < 3.0)
@@ -936,7 +936,7 @@ PLATFORMS
 
 DEPENDENCIES
   RedCloth (~> 4.3.2)
-  ace-rails-ap (~> 4.1.0)
+  ace-rails-ap (~> 4.1.4)
   activerecord_sane_schema_dumper (= 1.0)
   acts-as-taggable-on (~> 5.0)
   addressable (~> 2.5.2)
