@@ -33,7 +33,7 @@ gem 'grape-path-helpers', '~> 1.0'
 gem 'faraday', '~> 0.12'
 
 # Authentication libraries
-gem 'devise', '~> 4.4'
+gem 'devise', '~> 4.5'
 gem 'doorkeeper', '~> 4.3'
 gem 'doorkeeper-openid_connect', '~> 1.5'
 gem 'omniauth', '~> 1.8'
@@ -159,7 +159,7 @@ group :puma do
 end
 
 # State machine
-gem 'state_machines-activerecord', '~> 0.5.1'
+gem 'state_machines-activerecord', '~> 0.5.2'
 
 # Issue tags
 gem 'acts-as-taggable-on', '~> 5.0'
@@ -260,7 +260,7 @@ gem 'chronic_duration', '~> 0.10.6'
 gem 'webpack-rails', '~> 0.9.10'
 gem 'rack-proxy', '~> 0.6.0'
 
-gem 'sass-rails', '~> 5.0.6'
+gem 'sass-rails', '~> 5.0.7'
 gem 'uglifier', '~> 2.7.2'
 
 gem 'addressable', '~> 2.5.2'
@@ -276,7 +276,7 @@ gem 'base32', '~> 0.3.0'
 # Sentry integration
 gem 'sentry-raven', '~> 2.7'
 
-gem 'premailer-rails', '~> 1.9.7'
+gem 'premailer-rails', '~> 1.10.2'
 
 # I18n
 gem 'ruby_parser', '~> 3.8', require: false
@@ -328,11 +328,11 @@ group :development, :test do
   gem 'pry-rails', '~> 0.3.4'
 
   gem 'awesome_print', require: false
-  gem 'fuubar', '~> 2.2.0'
+  gem 'fuubar', '~> 2.3.2'
 
   gem 'database_cleaner', '~> 1.5.0'
   gem 'factory_bot_rails', '~> 4.8.2'
-  gem 'rspec-rails', '~> 3.7.0'
+  gem 'rspec-rails', '~> 3.8.1'
   gem 'rspec-retry', '~> 0.4.5'
   gem 'rspec_profiling', '~> 0.0.5'
   gem 'rspec-set', '~> 0.1.3'
@@ -383,7 +383,7 @@ group :test do
   gem 'rails-controller-testing' if rails5? # Rails5 only gem.
   gem 'test_after_commit', '~> 1.1' unless rails5? # Remove this gem when migrated to rails 5.0. It's been integrated to rails 5.0.
   gem 'sham_rack', '~> 1.3.6'
-  gem 'concurrent-ruby', '~> 1.0.5'
+  gem 'concurrent-ruby', '~> 1.1.3'
   gem 'test-prof', '~> 0.2.5'
   gem 'rspec_junit_formatter'
 end
@@ -427,9 +427,9 @@ gem 'google-protobuf', '~> 3.6'
 gem 'toml-rb', '~> 1.0.0', require: false
 
 # Feature toggles
-gem 'flipper', '~> 0.13.0'
-gem 'flipper-active_record', '~> 0.13.0'
-gem 'flipper-active_support_cache_store', '~> 0.13.0'
+gem 'flipper', '~> 0.16.0'
+gem 'flipper-active_record', '~> 0.16.0'
+gem 'flipper-active_support_cache_store', '~> 0.16.0'
 
 # Structured logging
 gem 'lograge', '~> 0.5'
