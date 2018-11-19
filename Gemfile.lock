@@ -475,7 +475,7 @@ GEM
     net-ssh (5.0.1)
     netrc (0.11.0)
     nio4r (2.3.1)
-    nokogiri (1.8.4)
+    nokogiri (1.8.5)
       mini_portile2 (~> 2.3.0)
     nokogumbo (1.5.0)
       nokogiri
@@ -1055,7 +1055,7 @@ DEPENDENCIES
   nakayoshi_fork (~> 0.0.4)
   net-ldap
   net-ssh (~> 5.0)
-  nokogiri (~> 1.8.2)
+  nokogiri (~> 1.8.5)
   oauth2 (~> 1.4)
   octokit (~> 4.9)
   omniauth (~> 1.8)
