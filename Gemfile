@@ -355,7 +355,7 @@ group :development, :test do
   gem 'rspec-parameterized', require: false
 
   # Prevent occasions where minitest is not bundled in packaged versions of ruby (see #3826)
-  gem 'minitest', '~> 5.7.0'
+  gem 'minitest', '~> 5.11.3'
 
   # Generate Fake data
   gem 'ffaker', '~> 2.10'
