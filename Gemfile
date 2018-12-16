@@ -136,7 +136,7 @@ gem 'escape_utils', '~> 1.1'
 gem 'icalendar'
 
 # Diffs
-gem 'diffy', '~> 3.1.0'
+gem 'diffy', '~> 3.2.1'
 
 # Application server
 # The 2.0.6 version of rack requires monkeypatch to be present in
