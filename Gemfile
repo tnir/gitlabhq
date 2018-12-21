@@ -168,7 +168,7 @@ gem 'redis-namespace', '~> 1.6.0'
 gem 'gitlab-sidekiq-fetcher', '~> 0.4.0', require: 'sidekiq-reliable-fetch'
 
 # Cron Parser
-gem 'rufus-scheduler', '~> 3.4'
+gem 'rufus-scheduler', '~> 3.5'
 
 # HTTP requests
 gem 'httparty', '~> 0.13.3'
