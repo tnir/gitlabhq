@@ -342,7 +342,7 @@ group :development, :test do
   # Generate Fake data
   gem 'ffaker', '~> 2.10'
 
-  gem 'capybara', '~> 2.15'
+  gem 'capybara', '~> 2.18'
   gem 'capybara-screenshot', '~> 1.0.0'
   gem 'selenium-webdriver', '~> 3.12'
 
