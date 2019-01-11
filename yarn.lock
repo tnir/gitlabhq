@@ -8105,10 +8105,10 @@ raphael@^2.2.7:
   dependencies:
     eve-raphael "0.5.0"
 
-raven-js@^3.22.1:
-  version "3.22.1"
-  resolved "https://registry.yarnpkg.com/raven-js/-/raven-js-3.22.1.tgz#1117f00dfefaa427ef6e1a7d50bbb1fb998a24da"
-  integrity sha512-2Y8czUl5a9usbvXbpV8a+GPAiDXjxQjaHImZL0TyJWI5k5jV/6o+wceaBAg9g6RpO9OOJp0/w2mMs6pBoqOyDA==
+raven-js@^3.27.0:
+  version "3.27.0"
+  resolved "https://registry.yarnpkg.com/raven-js/-/raven-js-3.27.0.tgz#9f47c03e17933ce756e189f3669d49c441c1ba6e"
+  integrity sha512-vChdOL+yzecfnGA+B5EhEZkJ3kY3KlMzxEhShKh6Vdtooyl0yZfYNFQfYzgMf2v4pyQa+OTZ5esTxxgOOZDHqw==
 
 raw-body@2.3.2:
   version "2.3.2"
