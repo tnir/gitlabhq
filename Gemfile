@@ -322,7 +322,7 @@ end
 group :development, :test do
   gem 'bootsnap', '~> 1.3'
   gem 'bullet', '~> 5.5.0', require: !!ENV['ENABLE_BULLET']
-  gem 'pry-byebug', '~> 3.5.1', platform: :mri
+  gem 'pry-byebug', '~> 3.6.0', platform: :mri
   gem 'pry-rails', '~> 0.3.4'
 
   gem 'awesome_print', require: false
