@@ -116,7 +116,7 @@
     "webpack-cli": "^3.2.1",
     "webpack-stats-plugin": "^0.2.1",
     "worker-loader": "^2.0.0",
-    "xterm": "^3.5.0"
+    "xterm": "^3.10.1"
   },
   "devDependencies": {
     "@gitlab/eslint-config": "^1.4.0",
