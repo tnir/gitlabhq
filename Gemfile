@@ -301,7 +301,7 @@ group :metrics do
 
   # Prometheus
   gem 'prometheus-client-mmap', '~> 0.9.4'
-  gem 'raindrops', '~> 0.18'
+  gem 'raindrops', '~> 0.19'
 end
 
 group :tracing do
