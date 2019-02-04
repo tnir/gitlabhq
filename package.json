@@ -158,7 +158,7 @@
     "jest-junit": "^5.2.0",
     "jsdoc": "^3.5.5",
     "jsdoc-vue": "^1.0.0",
-    "karma": "^3.0.0",
+    "karma": "^4.0.0",
     "karma-chrome-launcher": "^2.2.0",
     "karma-coverage-istanbul-reporter": "^2.0.4",
     "karma-jasmine": "^1.1.2",
