@@ -147,7 +147,7 @@
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jasmine": "^2.10.1",
     "eslint-plugin-jest": "^22.1.0",
-    "gettext-extractor": "^3.3.2",
+    "gettext-extractor": "^3.4.2",
     "gettext-extractor-vue": "^4.0.1",
     "graphql-tag": "^2.10.0",
     "istanbul": "^0.4.5",
