@@ -387,7 +387,7 @@ group :test do
   gem 'rails-controller-testing'
   gem 'sham_rack', '~> 1.3.6'
   gem 'concurrent-ruby', '~> 1.1'
-  gem 'test-prof', '~> 0.2.5'
+  gem 'test-prof', '~> 0.7.4'
   gem 'rspec_junit_formatter'
 end
 
