@@ -707,10 +707,10 @@
   resolved "https://registry.yarnpkg.com/@types/events/-/events-1.2.0.tgz#81a6731ce4df43619e5c8c945383b3e62a89ea86"
   integrity sha512-KEIlhXnIutzKwRbQkGWb/I4HFqBuUykAdHgDED6xqwXJfONCjF5VoE0cXEiurh3XauygxzeDzgtXUqvLkxFzzA==
 
-"@types/glob@^5":
-  version "5.0.35"
-  resolved "https://registry.yarnpkg.com/@types/glob/-/glob-5.0.35.tgz#1ae151c802cece940443b5ac246925c85189f32a"
-  integrity sha512-wc+VveszMLyMWFvXLkloixT4n0harUIVZjnpzztaZ0nKLuul7Z32iMt2fUFGAaZ4y1XWjFRMtCI5ewvyh4aIeg==
+"@types/glob@5 - 7":
+  version "7.1.1"
+  resolved "https://registry.yarnpkg.com/@types/glob/-/glob-7.1.1.tgz#aa59a1c6e3fbc421e07ccd31a944c30eba521575"
+  integrity sha512-1Bh06cbWJUHMC97acuD6UMG29nMt0Aqz1vF3guLfG+kHHJhy3AyohZFFxYk2f7Q1SQIrNwvncxAE0N/9s70F2w==
   dependencies:
     "@types/events" "*"
     "@types/minimatch" "*"
@@ -4486,18 +4486,18 @@ gettext-extractor-vue@^4.0.1:
     glob "^7.1.2"
     vue-template-compiler "^2.5.0"
 
-gettext-extractor@^3.3.2:
-  version "3.3.2"
-  resolved "https://registry.yarnpkg.com/gettext-extractor/-/gettext-extractor-3.3.2.tgz#d5172ba8d175678bd40a5abe7f908fa2a9d9473b"
-  integrity sha1-1RcrqNF1Z4vUClq+f5CPoqnZRzs=
+gettext-extractor@^3.4.3:
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/gettext-extractor/-/gettext-extractor-3.4.3.tgz#882679cefc71888eb6e69297e6b2dc14c0384fef"
+  integrity sha512-YSNdTCHmzm58Rc21thtXj7jRIOlqINftM3XbtvNK28C88i35EnEB89iOeV9Vetv7wcb/wiPAtcq/6iSnt2pMyw==
   dependencies:
-    "@types/glob" "^5"
+    "@types/glob" "5 - 7"
     "@types/parse5" "^5"
     css-selector-parser "^1.3"
     glob "5 - 7"
     parse5 "^5"
     pofile "^1"
-    typescript "^2"
+    typescript "2 - 3"
 
 glob-parent@^3.1.0:
   version "3.1.0"
@@ -10201,10 +10201,10 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@^2:
-  version "2.9.2"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.9.2.tgz#1cbf61d05d6b96269244eb6a3bce4bd914e0f00c"
-  integrity sha512-Gr4p6nFNaoufRIY4NMdpQRNmgxVIGMs4Fcu/ujdYk3nAZqk7supzBE9idmvfZIlH/Cuj//dvi+019qEue9lV0w==
+"typescript@2 - 3":
+  version "3.3.4000"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.3.4000.tgz#76b0f89cfdbf97827e1112d64f283f1151d6adf0"
+  integrity sha512-jjOcCZvpkl2+z7JFn0yBOoLQyLoIkNZAs/fYJkUG6VKy6zLPHJGfQJYFHzibB6GJaF/8QrcECtlQ5cpvRHSMEA==
 
 uc.micro@^1.0.1, uc.micro@^1.0.5:
   version "1.0.5"
