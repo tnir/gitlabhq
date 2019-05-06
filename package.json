@@ -22,7 +22,9 @@
     "stylelint-create-utility-map": "node scripts/frontend/stylelint/stylelint-utility-map.js",
     "test": "yarn jest && yarn karma",
     "webpack": "NODE_OPTIONS=\"--max-old-space-size=3584\" webpack --config config/webpack.config.js",
-    "webpack-prod": "NODE_OPTIONS=\"--max-old-space-size=3584\" NODE_ENV=production webpack --config config/webpack.config.js"
+    "webpack-prod": "NODE_OPTIONS=\"--max-old-space-size=3584\" NODE_ENV=production webpack --config config/webpack.config.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "@babel/core": "^7.2.2",
@@ -135,7 +137,8 @@
     "webpack-cli": "^3.2.1",
     "webpack-stats-plugin": "^0.2.1",
     "worker-loader": "^2.0.0",
-    "xterm": "^3.5.0"
+    "xterm": "^3.5.0",
+    "snyk": "^1.161.1"
   },
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.2.0",
@@ -197,5 +200,6 @@
   "engines": {
     "node": ">=8.10.0",
     "yarn": "^1.10.0"
-  }
+  },
+  "snyk": true
 }
