@@ -263,7 +263,7 @@ gem 'webpack-rails', '~> 0.9.10'
 gem 'rack-proxy', '~> 0.6.0'
 
 gem 'sassc-rails', '~> 2.1.0'
-gem 'uglifier', '~> 2.7.2'
+gem 'uglifier', '~> 4.1.20'
 
 gem 'addressable', '~> 2.5.2'
 gem 'font-awesome-rails', '~> 4.7'
