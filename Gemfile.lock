@@ -172,11 +172,11 @@ GEM
       railties (>= 4.1.0, < 6.0)
       responders
       warden (~> 1.2.3)
-    devise-two-factor (3.0.0)
-      activesupport
+    devise-two-factor (3.0.3)
+      activesupport (< 5.3)
       attr_encrypted (>= 1.3, < 4, != 2)
       devise (~> 4.0)
-      railties
+      railties (< 5.3)
       rotp (~> 2.0)
     diff-lcs (1.3)
     diffy (3.1.0)
@@ -979,8 +979,8 @@ GEM
       descendants_tracker (~> 0.0, >= 0.0.3)
       equalizer (~> 0.0, >= 0.0.9)
     vmstat (2.3.0)
-    warden (1.2.7)
-      rack (>= 1.0)
+    warden (1.2.8)
+      rack (>= 2.0.6)
     webfinger (1.1.0)
       activesupport
       httpclient (>= 2.4)
@@ -1047,7 +1047,7 @@ DEPENDENCIES
   derailed_benchmarks
   device_detector
   devise (~> 4.6)
-  devise-two-factor (~> 3.0.0)
+  devise-two-factor (~> 3.0.3)
   diffy (~> 3.1.0)
   discordrb-webhooks-blackst0ne (~> 3.3)
   doorkeeper (~> 4.3)
