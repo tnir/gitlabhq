@@ -392,7 +392,7 @@ GEM
     html-pipeline (2.8.4)
       activesupport (>= 2)
       nokogiri (>= 1.4)
-    html2text (0.2.0)
+    html2text (0.2.1)
       nokogiri (~> 1.6)
     htmlentities (4.3.4)
     http (3.3.0)
