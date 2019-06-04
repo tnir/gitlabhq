@@ -330,7 +330,7 @@ group :development, :test do
   gem 'pry-rails', '~> 0.3.4'
 
   gem 'awesome_print', require: false
-  gem 'fuubar', '~> 2.2.0'
+  gem 'fuubar', '~> 2.4.0'
 
   gem 'database_cleaner', '~> 1.7.0'
   gem 'factory_bot_rails', '~> 4.8.2'
