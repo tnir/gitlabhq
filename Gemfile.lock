@@ -428,7 +428,7 @@ GEM
       opentracing (~> 0.3)
       thrift
     jaro_winkler (1.5.2)
-    jira-ruby (1.4.1)
+    jira-ruby (1.6.0)
       activesupport
       multipart-post
       oauth (~> 0.5, >= 0.5.0)
@@ -508,7 +508,7 @@ GEM
     msgpack (1.2.10)
     multi_json (1.13.1)
     multi_xml (0.6.0)
-    multipart-post (2.0.0)
+    multipart-post (2.1.1)
     mustermann (1.0.3)
     mustermann-grape (1.0.0)
       mustermann (~> 1.0.0)
@@ -1121,7 +1121,7 @@ DEPENDENCIES
   httparty (~> 0.16.4)
   icalendar
   influxdb (~> 0.2)
-  jira-ruby (~> 1.4)
+  jira-ruby (~> 1.6)
   js_regex (~> 3.1)
   json-schema (~> 2.8.0)
   jwt (~> 2.1.0)
