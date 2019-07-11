@@ -14,7 +14,7 @@ gem 'sprockets', '~> 3.7.0'
 gem 'default_value_for', '~> 3.2.0'
 
 # Supported DBs
-gem 'mysql2', '~> 0.4.10', group: :mysql
+gem 'mysql2', '~> 0.5.2', group: :mysql
 gem 'pg', '~> 1.1', group: :postgres
 
 gem 'rugged', '~> 0.28'
