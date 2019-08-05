@@ -108,7 +108,7 @@
     "prosemirror-model": "^1.6.4",
     "raphael": "^2.2.7",
     "raven-js": "^3.22.1",
-    "raw-loader": "^1.0.0",
+    "raw-loader": "^3.1.0",
     "sanitize-html": "^1.16.1",
     "select2": "3.5.2-browserify",
     "sha1": "^1.1.1",
