@@ -443,4 +443,4 @@ gem 'unleash', '~> 0.1.5'
 
 # Structured logging
 gem 'lograge', '~> 0.5'
-gem 'grape_logging', '~> 1.7'
+gem 'grape_logging', '~> 1.8'
