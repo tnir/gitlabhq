@@ -697,7 +697,7 @@ GEM
     orm_adapter (0.5.0)
     os (1.0.0)
     parallel (1.17.0)
-    parser (2.6.3.0)
+    parser (2.6.4.1)
       ast (~> 2.4.0)
     parslet (1.8.2)
     pg (1.1.4)
@@ -887,8 +887,8 @@ GEM
       rubocop (>= 0.51)
     rubocop-performance (1.1.0)
       rubocop (>= 0.67.0)
-    rubocop-rspec (1.22.2)
-      rubocop (>= 0.52.1)
+    rubocop-rspec (1.35.0)
+      rubocop (>= 0.60.0)
     ruby-enum (0.7.2)
       i18n
     ruby-fogbugz (0.2.1)
@@ -1286,7 +1286,7 @@ DEPENDENCIES
   rspec_profiling (~> 0.0.5)
   rubocop (~> 0.69.0)
   rubocop-performance (~> 1.1.0)
-  rubocop-rspec (~> 1.22.1)
+  rubocop-rspec (~> 1.35.0)
   ruby-fogbugz (~> 0.2.1)
   ruby-prof (~> 1.0.0)
   ruby-progressbar
