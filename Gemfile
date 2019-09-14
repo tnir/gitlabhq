@@ -288,7 +288,7 @@ gem 'addressable', '~> 2.5.2'
 gem 'font-awesome-rails', '~> 4.7'
 gem 'gemojione', '~> 3.3'
 gem 'gon', '~> 6.2'
-gem 'request_store', '~> 1.3'
+gem 'request_store', '~> 1.4'
 gem 'base32', '~> 0.3.0'
 
 gem "gitlab-license", "~> 1.0"
