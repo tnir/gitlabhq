@@ -64,7 +64,7 @@ gem 'u2f', '~> 0.2.1'
 
 # GitLab Pages
 gem 'validates_hostname', '~> 1.0.6'
-gem 'rubyzip', '~> 1.2.2', require: 'zip'
+gem 'rubyzip', '1.3.0'
 # GitLab Pages letsencrypt support
 gem 'acme-client', '~> 2.0.2'
 
@@ -370,7 +370,7 @@ group :development, :test do
 
   gem 'capybara', '~> 3.22.0'
   gem 'capybara-screenshot', '~> 1.0.22'
-  gem 'selenium-webdriver', '~> 3.141'
+  gem 'selenium-webdriver', '~> 3.141', '>= 3.141.0'
 
   gem 'spring', '~> 2.0.0'
   gem 'spring-commands-rspec', '~> 1.0.4'
@@ -388,7 +388,7 @@ group :development, :test do
 
   gem 'benchmark-ips', '~> 2.3.0', require: false
 
-  gem 'license_finder', '~> 5.4', require: false
+  gem 'license_finder', '~> 5.4', '>= 5.4.0', require: false
   gem 'knapsack', '~> 1.17'
 
   gem 'stackprof', '~> 0.2.10', require: false
