@@ -26,7 +26,7 @@ gem 'faraday', '~> 0.12'
 # Authentication libraries
 gem 'devise', '~> 4.6'
 gem 'doorkeeper', '~> 4.3'
-gem 'doorkeeper-openid_connect', '~> 1.5'
+gem 'doorkeeper-openid_connect', '~> 1.5', '>= 1.5.0'
 gem 'omniauth', '~> 1.8'
 gem 'omniauth-auth0', '~> 2.0.0'
 gem 'omniauth-azure-oauth2', '~> 0.0.9'
@@ -43,7 +43,7 @@ gem 'omniauth-twitter', '~> 1.4'
 gem 'omniauth_crowd', '~> 2.2.0'
 gem 'omniauth-authentiq', '~> 0.3.3'
 gem 'omniauth_openid_connect', '~> 0.3.1'
-gem "omniauth-ultraauth", '~> 0.0.2'
+gem "omniauth-ultraauth", "~> 0.0.2"
 gem 'omniauth-salesforce', '~> 1.0.5'
 gem 'rack-oauth2', '~> 1.9.3'
 gem 'jwt', '~> 2.1.0'
@@ -83,7 +83,7 @@ gem 'net-ldap'
 # API
 gem 'grape', '~> 1.1.0'
 gem 'grape-entity', '~> 0.7.1'
-gem 'rack-cors', '~> 1.0.0', require: 'rack/cors'
+gem 'rack-cors', '1.0.5'
 
 # GraphQL API
 gem 'graphql', '~> 1.9.11'
