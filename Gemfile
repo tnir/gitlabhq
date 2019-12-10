@@ -379,7 +379,7 @@ group :development, :test do
   # Pin these dependencies, otherwise a new rule could break the CI pipelines
   gem 'rubocop', '~> 0.69.0'
   gem 'rubocop-performance', '~> 1.1.0'
-  gem 'rubocop-rspec', '~> 1.22.1'
+  gem 'rubocop-rspec', '~> 1.37.0'
 
   gem 'scss_lint', '~> 0.56.0', require: false
   gem 'haml_lint', '~> 0.31.0', require: false

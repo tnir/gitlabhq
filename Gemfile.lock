@@ -501,7 +501,7 @@ GEM
     jaeger-client (0.10.0)
       opentracing (~> 0.3)
       thrift
-    jaro_winkler (1.5.3)
+    jaro_winkler (1.5.4)
     jira-ruby (1.7.1)
       activesupport
       atlassian-jwt
@@ -696,8 +696,8 @@ GEM
       rubypants (~> 0.2)
     orm_adapter (0.5.0)
     os (1.0.0)
-    parallel (1.17.0)
-    parser (2.6.3.0)
+    parallel (1.19.1)
+    parser (2.6.5.0)
       ast (~> 2.4.0)
     parslet (1.8.2)
     pg (1.1.4)
@@ -887,8 +887,8 @@ GEM
       rubocop (>= 0.51)
     rubocop-performance (1.1.0)
       rubocop (>= 0.67.0)
-    rubocop-rspec (1.22.2)
-      rubocop (>= 0.52.1)
+    rubocop-rspec (1.37.0)
+      rubocop (>= 0.68.1)
     ruby-enum (0.7.2)
       i18n
     ruby-fogbugz (0.2.1)
@@ -1286,7 +1286,7 @@ DEPENDENCIES
   rspec_profiling (~> 0.0.5)
   rubocop (~> 0.69.0)
   rubocop-performance (~> 1.1.0)
-  rubocop-rspec (~> 1.22.1)
+  rubocop-rspec (~> 1.37.0)
   ruby-fogbugz (~> 0.2.1)
   ruby-prof (~> 1.0.0)
   ruby-progressbar
