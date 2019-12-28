@@ -919,7 +919,7 @@ GEM
     rubocop-rails (2.4.0)
       rack (>= 1.1)
       rubocop (>= 0.72.0)
-    rubocop-rspec (1.37.0)
+    rubocop-rspec (1.37.1)
       rubocop (>= 0.68.1)
     ruby-enum (0.7.2)
       i18n
@@ -1324,7 +1324,7 @@ DEPENDENCIES
   rspec_profiling (~> 0.0.5)
   rubocop (~> 0.74.0)
   rubocop-performance (~> 1.4.1)
-  rubocop-rspec (~> 1.37.0)
+  rubocop-rspec (~> 1.37.1)
   ruby-fogbugz (~> 0.2.1)
   ruby-prof (~> 1.0.0)
   ruby-progressbar
