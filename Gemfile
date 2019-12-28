@@ -64,7 +64,7 @@ gem 'attr_encrypted', '~> 3.1.0'
 gem 'u2f', '~> 0.2.1'
 
 # GitLab Pages
-gem 'validates_hostname', '~> 1.0.6'
+gem 'validates_hostname', '~> 1.0.8'
 gem 'rubyzip', '~> 1.3.0', require: 'zip'
 # GitLab Pages letsencrypt support
 gem 'acme-client', '~> 2.0.2'
