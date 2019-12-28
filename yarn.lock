@@ -4927,10 +4927,10 @@ format@^0.2.2:
   resolved "https://registry.yarnpkg.com/format/-/format-0.2.2.tgz#d6170107e9efdc4ed30c9dc39016df942b5cb58b"
   integrity sha1-1hcBB+nv3E7TDJ3DkBbflCtctYs=
 
-formdata-polyfill@^3.0.11:
-  version "3.0.11"
-  resolved "https://registry.yarnpkg.com/formdata-polyfill/-/formdata-polyfill-3.0.11.tgz#c82b4b4bea3356c0a6752219e54ce1edb2a7fb5b"
-  integrity sha512-lDyjdlptnGL1Fk7q+hketv31EN9rWaVC/SLz1tRaUktGrsCijyueIcjn7Tw3xKEdCjS5SeBrWp5aNLWUQq+QLg==
+formdata-polyfill@^3.0.19:
+  version "3.0.19"
+  resolved "https://registry.yarnpkg.com/formdata-polyfill/-/formdata-polyfill-3.0.19.tgz#72f517db3a646a5dd8c31af0edf111fd8f1e4cee"
+  integrity sha512-nRSp8nniopIOCLZOUE2omwnUvmRH6VEdKm52rLTne8XBsW7hMMBUiOjuxUPoBsiK0CatKmxArh+Svt2s7R66JQ==
 
 forwarded@~0.1.2:
   version "0.1.2"
