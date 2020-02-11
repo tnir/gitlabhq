@@ -929,7 +929,7 @@ GEM
     rubocop-rails (2.4.0)
       rack (>= 1.1)
       rubocop (>= 0.72.0)
-    rubocop-rspec (1.37.0)
+    rubocop-rspec (1.38.0)
       rubocop (>= 0.68.1)
     ruby-enum (0.7.2)
       i18n
@@ -1067,7 +1067,7 @@ GEM
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.5)
-    unicode-display_width (1.6.0)
+    unicode-display_width (1.6.1)
     unicode_utils (1.4.0)
     unicorn (5.4.1)
       kgio (~> 2.6)
@@ -1338,7 +1338,7 @@ DEPENDENCIES
   rspec_profiling (~> 0.0.5)
   rubocop (~> 0.74.0)
   rubocop-performance (~> 1.4.1)
-  rubocop-rspec (~> 1.37.0)
+  rubocop-rspec (~> 1.38.0)
   ruby-fogbugz (~> 0.2.1)
   ruby-prof (~> 1.0.0)
   ruby-progressbar
