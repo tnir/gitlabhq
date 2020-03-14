@@ -92,7 +92,7 @@ gem 'graphql', '~> 1.9.19'
 # TODO: remove app/views/graphiql/rails/editors/show.html.erb when https://github.com/rmosolgo/graphiql-rails/pull/71 is released:
 # https://gitlab.com/gitlab-org/gitlab/issues/31747
 gem 'graphiql-rails', '~> 1.4.10'
-gem 'apollo_upload_server', '~> 2.0.0.beta3'
+gem 'apollo_upload_server', '~> 2.0.0.0'
 gem 'graphql-docs', '~> 1.6.0', group: [:development, :test]
 
 # Disable strong_params so that Mash does not respond to :permitted?
@@ -307,7 +307,7 @@ gem 'gitlab-labkit', '0.11.0'
 gem 'ruby_parser', '~> 3.8', require: false
 gem 'rails-i18n', '~> 6.0'
 gem 'gettext_i18n_rails', '~> 1.8.0'
-gem 'gettext_i18n_rails_js', '~> 1.3'
+gem 'gettext_i18n_rails_js', '~> 1.3', '>= 1.3.0'
 gem 'gettext', '~> 3.2.2', require: false, group: :development
 
 gem 'batch-loader', '~> 1.4.0'
@@ -319,7 +319,7 @@ gem 'peek', '~> 1.1'
 gem 'snowplow-tracker', '~> 0.6.1'
 
 # Memory benchmarks
-gem 'gitlab-derailed_benchmarks', require: false
+gem 'gitlab-derailed_benchmarks', '>= 1.6.1', require: false
 
 # Metrics
 group :metrics do
@@ -472,7 +472,7 @@ gem 'unleash', '~> 0.1.5'
 
 # Structured logging
 gem 'lograge', '~> 0.5'
-gem 'grape_logging', '~> 1.7'
+gem 'grape_logging', '~> 1.8', '>= 1.8.3'
 
 # DNS Lookup
 gem 'gitlab-net-dns', '~> 0.9.1'
