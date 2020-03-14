@@ -572,7 +572,7 @@ GEM
       activerecord
       kaminari-core (= 1.0.1)
     kaminari-core (1.0.1)
-    kgio (2.11.2)
+    kgio (2.11.3)
     knapsack (1.17.0)
       rake
     kramdown (2.1.0)
@@ -1085,7 +1085,7 @@ GEM
     unf_ext (0.0.7.5)
     unicode-display_width (1.6.0)
     unicode_utils (1.4.0)
-    unicorn (5.4.1)
+    unicorn (5.5.3)
       kgio (~> 2.6)
       raindrops (~> 0.7)
     unicorn-worker-killer (0.4.4)
@@ -1392,7 +1392,7 @@ DEPENDENCIES
   u2f (~> 0.2.1)
   uglifier (~> 2.7.2)
   unf (~> 0.1.4)
-  unicorn (~> 5.4.1)
+  unicorn (~> 5.5.3)
   unicorn-worker-killer (~> 0.4.4)
   unleash (~> 0.1.5)
   validates_hostname (~> 1.0.6)
