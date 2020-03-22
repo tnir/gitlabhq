@@ -53,7 +53,7 @@ gem 'jwt', '~> 2.1.0'
 gem 'gssapi', group: :kerberos
 
 # Spam and anti-bot protection
-gem 'recaptcha', '~> 4.11', require: 'recaptcha/rails'
+gem 'recaptcha', '4.13.1'
 gem 'akismet', '~> 3.0'
 gem 'invisible_captcha', '~> 0.12.1'
 
@@ -285,7 +285,7 @@ gem 'uglifier', '~> 2.7.2'
 
 gem 'addressable', '~> 2.7'
 gem 'font-awesome-rails', '~> 4.7'
-gem 'gemojione', '~> 3.3'
+gem 'gemojione', '~> 3.3', '>= 3.3.0'
 gem 'gon', '~> 6.2'
 gem 'request_store', '~> 1.3'
 gem 'base32', '~> 0.3.0'
@@ -307,7 +307,7 @@ gem 'gitlab-labkit', '0.11.0'
 gem 'ruby_parser', '~> 3.8', require: false
 gem 'rails-i18n', '~> 6.0'
 gem 'gettext_i18n_rails', '~> 1.8.0'
-gem 'gettext_i18n_rails_js', '~> 1.3'
+gem 'gettext_i18n_rails_js', '~> 1.3', '>= 1.3.0'
 gem 'gettext', '~> 3.2.2', require: false, group: :development
 
 gem 'batch-loader', '~> 1.4.0'
@@ -324,7 +324,7 @@ gem 'gitlab-derailed_benchmarks', require: false
 # Metrics
 group :metrics do
   gem 'method_source', '~> 0.8', require: false
-  gem 'influxdb', '~> 0.2', require: false
+  gem 'influxdb', '~> 0.2', '>= 0.2.3', require: false
 
   # Prometheus
   gem 'prometheus-client-mmap', '~> 0.10.0'
