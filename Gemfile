@@ -85,7 +85,7 @@ gem 'net-ldap'
 # Remove config/initializers/grape_patch.rb
 gem 'grape', '= 1.4.0'
 gem 'grape-entity', '~> 0.7.1'
-gem 'rack-cors', '~> 1.0.6', require: 'rack/cors'
+gem 'rack-cors', '~> 1.1.1', require: 'rack/cors'
 
 # GraphQL API
 gem 'graphql', '~> 1.10.5'
