@@ -285,7 +285,7 @@ gem 'gitlab-chronic', '~> 0.10.5'
 gem 'gitlab_chronic_duration', '~> 0.10.6.2'
 
 gem 'webpack-rails', '~> 0.9.10'
-gem 'rack-proxy', '~> 0.6.0'
+gem 'rack-proxy', '~> 0.6.5'
 
 gem 'sassc-rails', '~> 2.1.0'
 gem 'uglifier', '~> 2.7.2'
