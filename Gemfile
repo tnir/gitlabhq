@@ -293,8 +293,8 @@ gem 'uglifier', '~> 2.7.2'
 gem 'addressable', '~> 2.7'
 gem 'font-awesome-rails', '~> 4.7'
 gem 'gemojione', '~> 3.3'
-gem 'gon', '~> 6.2'
-gem 'request_store', '~> 1.5'
+gem 'gon', '~> 6.2', '>= 6.2.0'
+gem 'request_store', '~> 1.5', '>= 1.5.0'
 gem 'base32', '~> 0.3.0'
 
 gem "gitlab-license", "~> 1.0"
@@ -442,7 +442,7 @@ gem 'activerecord-explain-analyze', '~> 0.1', require: false
 gem 'oauth2', '~> 1.4'
 
 # Health check
-gem 'health_check', '~> 3.0'
+gem 'health_check', '~> 3.0', '>= 3.0.0'
 
 # System information
 gem 'vmstat', '~> 2.3.0'
@@ -477,7 +477,7 @@ gem 'flipper-active_support_cache_store', '~> 0.17.1'
 gem 'unleash', '~> 0.1.5'
 
 # Structured logging
-gem 'lograge', '~> 0.5'
+gem 'lograge', '~> 0.11', '>= 0.11.2'
 gem 'grape_logging', '~> 1.7'
 
 # DNS Lookup
