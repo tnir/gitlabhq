@@ -384,7 +384,7 @@ group :development, :test do
 
   gem 'knapsack', '~> 1.17'
 
-  gem 'simple_po_parser', '~> 1.1.2', require: false
+  gem 'simple_po_parser', '~> 1.1.5', require: false
 
   gem 'timecop', '~> 0.9.1'
 
