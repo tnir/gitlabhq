@@ -266,7 +266,7 @@ gem 'babosa', '~> 1.0.2'
 gem 'loofah', '~> 2.2'
 
 # Working with license
-gem 'licensee', '~> 8.9'
+gem 'licensee', '~> 9.13'
 
 # Ace editor
 gem 'ace-rails-ap', '~> 4.1.0'
