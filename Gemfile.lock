@@ -985,8 +985,9 @@ GEM
       rubocop (>= 0.68.1)
     ruby-enum (0.7.2)
       i18n
-    ruby-fogbugz (0.2.1)
+    ruby-fogbugz (0.3.0)
       crack (~> 0.4)
+      multipart-post (~> 2.0)
     ruby-prof (1.3.1)
     ruby-progressbar (1.10.1)
     ruby-saml (1.7.2)
@@ -1000,7 +1001,7 @@ GEM
     rubypants (0.2.0)
     rubyzip (2.0.0)
     rugged (0.28.4.1)
-    safe_yaml (1.0.4)
+    safe_yaml (1.0.5)
     sanitize (4.6.6)
       crass (~> 1.0.2)
       nokogiri (>= 1.4.4)
@@ -1402,7 +1403,7 @@ DEPENDENCIES
   rubocop (~> 0.82.0)
   rubocop-performance (~> 1.5.2)
   rubocop-rspec (~> 1.37.0)
-  ruby-fogbugz (~> 0.2.1)
+  ruby-fogbugz (~> 0.3.0)
   ruby-prof (~> 1.3.0)
   ruby-progressbar
   ruby_parser (~> 3.8)

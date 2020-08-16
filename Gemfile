@@ -253,7 +253,7 @@ gem 'hangouts-chat', '~> 0.0.5'
 gem 'asana', '0.10.0'
 
 # FogBugz integration
-gem 'ruby-fogbugz', '~> 0.2.1'
+gem 'ruby-fogbugz', '~> 0.3.0'
 
 # Kubernetes integration
 gem 'kubeclient', '~> 4.6.0'
