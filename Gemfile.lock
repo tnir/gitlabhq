@@ -561,6 +561,7 @@ GEM
     i18n_data (0.8.0)
     icalendar (2.4.1)
     ice_nine (0.11.2)
+    idn-ruby (0.1.0)
     invisible_captcha (0.12.1)
       rails (>= 3.2.0)
     ipaddress (0.8.3)
@@ -922,7 +923,6 @@ GEM
       netrc (~> 0.8)
     retriable (3.1.2)
     rexml (3.2.4)
-    rinku (2.0.0)
     rotp (2.1.2)
     rouge (3.21.0)
     rqrcode (0.7.0)
@@ -1112,6 +1112,9 @@ GEM
     truncato (0.7.11)
       htmlentities (~> 4.3.1)
       nokogiri (>= 1.7.0, <= 2.0)
+    twitter-text (3.1.0)
+      idn-ruby
+      unf (~> 0.1.0)
     tzinfo (1.2.7)
       thread_safe (~> 0.1)
     u2f (0.2.1)
@@ -1172,10 +1175,12 @@ GEM
     websocket-driver (0.7.1)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.4)
-    wikicloth (0.8.1)
+    wikicloth (0.8.3)
       builder
       expression_parser
-      rinku
+      htmlentities
+      nokogiri
+      twitter-text
     with_env (1.1.0)
     xml-simple (1.1.5)
     xpath (3.2.0)
@@ -1447,7 +1452,7 @@ DEPENDENCIES
   vmstat (~> 2.3.0)
   webmock (~> 3.5.1)
   webpack-rails (~> 0.9.10)
-  wikicloth (= 0.8.1)
+  wikicloth (= 0.8.3)
   yajl-ruby (~> 1.4.1)
 
 BUNDLED WITH
