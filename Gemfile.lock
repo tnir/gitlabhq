@@ -556,7 +556,7 @@ GEM
       mime-types (~> 3.0)
       multi_xml (>= 0.5.2)
     httpclient (2.8.3)
-    i18n (1.8.3)
+    i18n (1.8.5)
       concurrent-ruby (~> 1.0)
     i18n_data (0.8.0)
     icalendar (2.4.1)
@@ -1025,7 +1025,7 @@ GEM
     scss_lint (0.56.0)
       rake (>= 0.9, < 13)
       sass (~> 3.5.3)
-    seed-fu (2.3.7)
+    seed-fu (2.3.9)
       activerecord (>= 3.1)
       activesupport (>= 3.1)
     selenium-webdriver (3.142.6)
@@ -1181,7 +1181,7 @@ GEM
     xpath (3.2.0)
       nokogiri (~> 1.8)
     yajl-ruby (1.4.1)
-    zeitwerk (2.3.0)
+    zeitwerk (2.4.0)
 
 PLATFORMS
   ruby
@@ -1411,7 +1411,7 @@ DEPENDENCIES
   sanitize (~> 4.6)
   sassc-rails (~> 2.1.0)
   scss_lint (~> 0.56.0)
-  seed-fu (~> 2.3.7)
+  seed-fu (~> 2.3.9)
   selenium-webdriver (~> 3.142)
   sentry-raven (~> 2.9)
   settingslogic (~> 2.0.9)
