@@ -350,7 +350,7 @@ end
 
 group :development, :test do
   gem 'bullet', '~> 6.0.2'
-  gem 'pry-byebug', '~> 3.5.1', platform: :mri
+  gem 'pry-byebug', '~> 3.8.0', platform: :mri
   gem 'pry-rails', '~> 0.3.9'
 
   gem 'awesome_print', require: false
