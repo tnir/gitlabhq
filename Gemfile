@@ -117,7 +117,7 @@ gem 'fog-core', '= 2.1.0'
 gem 'fog-google', '~> 1.10'
 gem 'fog-local', '~> 0.6'
 gem 'fog-openstack', '~> 1.0'
-gem 'fog-rackspace', '~> 0.1.1'
+gem 'fog-rackspace', '~> 0.1.6'
 gem 'fog-aliyun', '~> 0.3'
 
 # for Google storage
