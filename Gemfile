@@ -380,7 +380,7 @@ group :development, :test do
   gem 'simplecov-cobertura', '~> 1.3.1', require: false
   gem 'bundler-audit', '~> 0.6.1', require: false
 
-  gem 'benchmark-ips', '~> 2.3.0', require: false
+  gem 'benchmark-ips', '~> 2.8.3', require: false
 
   gem 'knapsack', '~> 1.17'
 
