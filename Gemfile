@@ -172,7 +172,7 @@ gem 'rack', '~> 2.0.9'
 gem 'rack-timeout', '~> 0.5.1', require: 'rack/timeout/base'
 
 group :unicorn do
-  gem 'unicorn', '~> 5.5'
+  gem 'unicorn', '~> 5.7'
   gem 'unicorn-worker-killer', '~> 0.4.4'
 end
 
