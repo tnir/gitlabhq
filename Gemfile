@@ -93,7 +93,7 @@ gem 'graphql', '~> 1.10.5'
 # TODO: remove app/views/graphiql/rails/editors/show.html.erb when https://github.com/rmosolgo/graphiql-rails/pull/71 is released:
 # https://gitlab.com/gitlab-org/gitlab/issues/31747
 gem 'graphiql-rails', '~> 1.4.10'
-gem 'apollo_upload_server', '~> 2.0.0.beta3'
+gem 'apollo_upload_server', '~> 2.0.0.0'
 gem 'graphql-docs', '~> 1.6.0', group: [:development, :test]
 
 # Disable strong_params so that Mash does not respond to :permitted?
@@ -314,7 +314,7 @@ gem 'gitlab-labkit', '0.12.1'
 gem 'ruby_parser', '~> 3.8', require: false
 gem 'rails-i18n', '~> 6.0'
 gem 'gettext_i18n_rails', '~> 1.8.0'
-gem 'gettext_i18n_rails_js', '~> 1.3'
+gem 'gettext_i18n_rails_js', '~> 1.3', '>= 1.3.0'
 gem 'gettext', '~> 3.2.2', require: false, group: :development
 
 gem 'batch-loader', '~> 1.4.0'
