@@ -144,7 +144,7 @@ gem 'deckar01-task_list', '2.3.1'
 gem 'gitlab-markup', '~> 1.7.1'
 gem 'github-markup', '~> 1.7.0', require: 'github/markup'
 gem 'commonmarker', '~> 0.20'
-gem 'kramdown', '~> 2.3.0'
+gem 'kramdown', '~> 2.3.1'
 gem 'RedCloth', '~> 4.3.2'
 gem 'rdoc', '~> 6.1.2'
 gem 'org-ruby', '~> 0.9.12'
@@ -336,7 +336,7 @@ end
 
 group :development do
   gem 'brakeman', '~> 4.2', require: false
-  gem 'danger', '~> 6.0', require: false
+  gem 'danger', '~> 6.0', '>= 6.0.9', require: false
 
   gem 'letter_opener_web', '~> 1.3.4'
 
