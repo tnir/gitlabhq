@@ -336,7 +336,7 @@ end
 
 group :development do
   gem 'brakeman', '~> 4.2', require: false
-  gem 'danger', '~> 6.0', require: false
+  gem 'danger', '~> 6.0', '>= 6.0.9', require: false
 
   gem 'letter_opener_web', '~> 1.3.4'
 
