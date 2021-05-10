@@ -96,7 +96,7 @@
     "babel-plugin-lodash": "^3.3.4",
     "bootstrap": "4.5.3",
     "cache-loader": "^4.1.0",
-    "clipboard": "^1.7.1",
+    "clipboard": "^2.0.8",
     "codemirror": "^5.48.4",
     "codesandbox-api": "0.0.23",
     "compression-webpack-plugin": "^5.0.2",
