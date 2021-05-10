@@ -167,7 +167,7 @@
     "tiptap-extensions": "^1.35.1",
     "url-loader": "^4.1.1",
     "uuid": "8.1.0",
-    "visibilityjs": "^1.2.4",
+    "visibilityjs": "^2.0.2",
     "vue": "^2.6.12",
     "vue-apollo": "^3.0.3",
     "vue-loader": "^15.9.6",
