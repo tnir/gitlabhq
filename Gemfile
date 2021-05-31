@@ -138,7 +138,7 @@ gem 'google-api-client', '~> 0.33'
 gem 'unf', '~> 0.1.4'
 
 # Seed data
-gem 'seed-fu', '~> 2.3.7'
+gem 'seed-fu', '~> 2.3.9'
 
 # Search
 gem 'elasticsearch-model', '~> 6.1'
