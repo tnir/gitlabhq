@@ -194,7 +194,7 @@
     "@gitlab/stylelint-config": "2.3.0",
     "@testing-library/dom": "^7.16.2",
     "@vue/test-utils": "1.2.0",
-    "acorn": "^6.3.0",
+    "acorn": "^8.2.4",
     "axios-mock-adapter": "^1.15.0",
     "babel-jest": "^26.5.2",
     "babel-plugin-dynamic-import-node": "^2.3.3",
