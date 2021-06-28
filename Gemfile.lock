@@ -381,7 +381,7 @@ GEM
     fast_blank (1.0.0)
     fast_gettext (1.6.0)
     ffaker (2.10.0)
-    ffi (1.15.1)
+    ffi (1.15.3)
     ffi-compiler (1.0.1)
       ffi (>= 1.0.0)
       rake
@@ -1263,8 +1263,8 @@ GEM
       activesupport (>= 3)
       attr_required (>= 0.0.5)
       httpclient (>= 2.4)
-    sys-filesystem (1.1.9)
-      ffi
+    sys-filesystem (1.4.1)
+      ffi (~> 1.1)
     sysexits (1.2.0)
     temple (0.8.2)
     terminal-table (1.8.0)
@@ -1652,7 +1652,7 @@ DEPENDENCIES
   sshkey (~> 2.0)
   stackprof (~> 0.2.15)
   state_machines-activerecord (~> 0.8.0)
-  sys-filesystem (~> 1.1.6)
+  sys-filesystem (~> 1.4.1)
   terser (= 1.0.2)
   test-prof (~> 0.12.0)
   test_file_finder (~> 0.1.3)
