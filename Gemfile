@@ -38,7 +38,7 @@ gem 'omniauth-auth0', '~> 2.0.0'
 gem 'omniauth-azure-activedirectory-v2', '~> 1.0'
 gem 'omniauth-azure-oauth2', '~> 0.0.9' # Deprecated v1 version
 gem 'omniauth-cas3', '~> 1.1.4'
-gem 'omniauth-facebook', '~> 4.0.0'
+gem 'omniauth-facebook', '~> 8.0.0'
 gem 'omniauth-github', '~> 1.4'
 gem 'omniauth-gitlab', '~> 1.0.2'
 gem 'omniauth-google-oauth2', '~> 0.6.0'
