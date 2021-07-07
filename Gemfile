@@ -79,7 +79,7 @@ gem 'acme-client', '~> 2.0', '>= 2.0.6'
 gem 'browser', '~> 4.2'
 
 # OS detection for usage ping
-gem 'ohai', '~> 16.10'
+gem 'ohai', '~> 16.10', '>= 16.10.6'
 
 # GPG
 gem 'gpgme', '~> 2.0.19'
@@ -124,7 +124,7 @@ gem 'fog-aws', '~> 3.9'
 # Locked until fog-google resolves https://github.com/fog/fog-google/issues/421.
 # Also see config/initializers/fog_core_patch.rb.
 gem 'fog-core', '= 2.1.0'
-gem 'gitlab-fog-google', '~> 1.13', require: 'fog/google'
+gem 'gitlab-fog-google', '~> 1.13', '>= 1.13.0', require: 'fog/google'
 gem 'fog-local', '~> 0.6'
 gem 'fog-openstack', '~> 1.0'
 gem 'fog-rackspace', '~> 0.1.1'
@@ -132,7 +132,7 @@ gem 'fog-aliyun', '~> 0.3'
 gem 'gitlab-fog-azure-rm', '~> 1.1.1', require: false
 
 # for Google storage
-gem 'google-api-client', '~> 0.33'
+gem 'google-api-client', '~> 0.50', '>= 0.50.0'
 
 # for aws storage
 gem 'unf', '~> 0.1.4'
@@ -289,7 +289,7 @@ gem 'sassc-rails', '~> 2.1.0'
 gem 'autoprefixer-rails', '10.2.0.0'
 gem 'terser', '1.0.2'
 
-gem 'addressable', '~> 2.7'
+gem 'addressable', '~> 2.8', '>= 2.8.0'
 gem 'gemojione', '~> 3.3'
 gem 'gon', '~> 6.4.0'
 gem 'request_store', '~> 1.5'
@@ -438,7 +438,7 @@ group :test do
   gem 'derailed_benchmarks', require: false
 end
 
-gem 'octokit', '~> 4.15'
+gem 'octokit', '~> 4.20', '>= 4.20.0'
 
 # https://gitlab.com/gitlab-org/gitlab/issues/207207
 gem 'gitlab-mail_room', '~> 0.0.9', require: 'mail_room'
