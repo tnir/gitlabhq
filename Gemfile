@@ -268,7 +268,7 @@ gem 'babosa', '~> 1.0.4'
 gem 'loofah', '~> 2.2'
 
 # Working with license
-gem 'licensee', '~> 9.14.1'
+gem 'licensee', '~> 9.15.1'
 
 # Detect and convert string character encoding
 gem 'charlock_holmes', '~> 0.7.7'
