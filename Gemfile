@@ -375,7 +375,7 @@ group :development, :test do
   gem 'haml_lint', '~> 0.36.0', require: false
   gem 'bundler-audit', '~> 0.7.0.1', require: false
 
-  gem 'benchmark-ips', '~> 2.3.0', require: false
+  gem 'benchmark-ips', '~> 2.9.1', require: false
 
   gem 'knapsack', '~> 1.21.1'
   gem 'crystalball', '~> 0.7.0', require: false
