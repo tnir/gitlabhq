@@ -665,7 +665,7 @@ GEM
       character_set (~> 1.4)
       regexp_parser (~> 1.5)
       regexp_property_values (~> 0.3)
-    json (2.3.0)
+    json (2.5.1)
     json-jwt (1.13.0)
       activesupport (>= 4.2)
       aes_key_wrap
@@ -1527,7 +1527,7 @@ DEPENDENCIES
   ipaddress (~> 0.8.3)
   jira-ruby (~> 2.1.4)
   js_regex (~> 3.4)
-  json (~> 2.3.0)
+  json (~> 2.5.1)
   json_schemer (~> 0.2.12)
   jwt (~> 2.1.0)
   kaminari (~> 1.0)
