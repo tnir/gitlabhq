@@ -160,7 +160,7 @@ gem 'RedCloth', '~> 4.3.2'
 gem 'rdoc', '~> 6.3.2'
 gem 'org-ruby', '~> 0.9.12'
 gem 'creole', '~> 0.5.0'
-gem 'wikicloth', '0.8.1'
+gem 'wikicloth', '0.8.3'
 gem 'asciidoctor', '~> 2.0.10'
 gem 'asciidoctor-include-ext', '~> 0.3.1', require: false
 gem 'asciidoctor-plantuml', '~> 0.0.12'

@@ -648,6 +648,7 @@ GEM
     i18n_data (0.8.0)
     icalendar (2.4.1)
     ice_nine (0.11.2)
+    idn-ruby (0.1.2)
     invisible_captcha (1.1.0)
       rails (>= 4.2)
     ipaddress (0.8.3)
@@ -1067,7 +1068,6 @@ GEM
     reverse_markdown (1.4.0)
       nokogiri
     rexml (3.2.5)
-    rinku (2.0.0)
     rotp (6.2.0)
     rouge (3.26.0)
     rqrcode (0.7.0)
@@ -1320,6 +1320,9 @@ GEM
       tty-screen (~> 0.8)
       wisper (~> 2.0)
     tty-screen (0.8.1)
+    twitter-text (3.1.0)
+      idn-ruby
+      unf (~> 0.1.0)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
     u2f (0.2.1)
@@ -1378,10 +1381,12 @@ GEM
     websocket-driver (0.7.3)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
-    wikicloth (0.8.1)
+    wikicloth (0.8.3)
       builder
       expression_parser
-      rinku
+      htmlentities
+      nokogiri
+      twitter-text
     wisper (2.0.1)
     with_env (1.1.0)
     wmi-lite (1.0.5)
@@ -1669,7 +1674,7 @@ DEPENDENCIES
   webauthn (~> 2.3)
   webmock (~> 3.9.1)
   webrick (~> 1.6.1)
-  wikicloth (= 0.8.1)
+  wikicloth (= 0.8.3)
   yajl-ruby (~> 1.4.1)
 
 BUNDLED WITH
