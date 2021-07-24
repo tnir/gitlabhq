@@ -1322,7 +1322,7 @@ GEM
     tty-screen (0.8.1)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
-    u2f (0.2.1)
+    u2f (1.0.0)
     uber (0.1.0)
     unf (0.1.4)
       unf_ext
@@ -1659,7 +1659,7 @@ DEPENDENCIES
   timecop (~> 0.9.1)
   toml-rb (~> 2.0)
   truncato (~> 0.7.11)
-  u2f (~> 0.2.1)
+  u2f (~> 1.0.0)
   unf (~> 0.1.4)
   unleash (~> 0.1.5)
   valid_email (~> 0.1)
