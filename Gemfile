@@ -27,7 +27,7 @@ gem 'openssl', '2.2.1'
 gem 'ipaddr', '1.2.2'
 
 # Responders respond_to and respond_with
-gem 'responders', '~> 3.0'
+gem 'responders', '~> 3.0', '>= 3.0.0'
 
 gem 'sprockets', '~> 3.7.0'
 
@@ -52,8 +52,8 @@ gem 'declarative_policy', '~> 1.1.0'
 gem 'devise', '~> 4.8.1'
 gem 'devise-pbkdf2-encryptable', '~> 0.0.0', path: 'vendor/gems/devise-pbkdf2-encryptable'
 gem 'bcrypt', '~> 3.1', '>= 3.1.14'
-gem 'doorkeeper', '~> 5.5.0.rc2'
-gem 'doorkeeper-openid_connect', '~> 1.7.5'
+gem 'doorkeeper', '~> 5.5.0.0'
+gem 'doorkeeper-openid_connect', '~> 1.8.0'
 gem 'rexml', '~> 3.2.5'
 gem 'ruby-saml', '~> 1.13.0'
 gem 'omniauth', '~> 2.1.0'
@@ -124,7 +124,7 @@ gem 'grape-swagger-entity', '~> 0.5.1', group: [:development, :test]
 
 # GraphQL API
 gem 'graphql', '~> 1.13.12'
-gem 'graphiql-rails', '~> 1.8'
+gem 'graphiql-rails', '~> 1.8', '>= 1.8.0'
 gem 'apollo_upload_server', '~> 2.1.0'
 gem 'graphql-docs', '~> 2.1.0', group: [:development, :test]
 gem 'graphlient', '~> 0.5.0' # Used by BulkImport feature (group::import)
@@ -290,7 +290,7 @@ gem 'sanitize', '~> 6.0'
 gem 'babosa', '~> 1.0.4'
 
 # Sanitizes SVG input
-gem 'loofah', '~> 2.19.0'
+gem 'loofah', '~> 2.19.1'
 
 # Working with license
 # Detects the open source license the repository includes
@@ -345,15 +345,15 @@ gem 'thrift', '>= 0.16.0'
 
 # I18n
 gem 'ruby_parser', '~> 3.15', require: false
-gem 'rails-i18n', '~> 7.0'
+gem 'rails-i18n', '~> 7.0', '>= 7.0.3'
 gem 'gettext_i18n_rails', '~> 1.8.0'
-gem 'gettext_i18n_rails_js', '~> 1.3'
+gem 'gettext_i18n_rails_js', '~> 1.3', '>= 1.3.0'
 gem 'gettext', '~> 3.3', require: false, group: :development
 
 gem 'batch-loader', '~> 2.0.1'
 
 # Perf bar
-gem 'peek', '~> 1.1'
+gem 'peek', '~> 1.1', '>= 1.1.0'
 
 # Snowplow events tracking
 gem 'snowplow-tracker', '~> 0.6.1'
@@ -487,7 +487,7 @@ gem 'activerecord-explain-analyze', '~> 0.1', require: false
 gem 'oauth2', '~> 2.0'
 
 # Health check
-gem 'health_check', '~> 3.0'
+gem 'health_check', '~> 3.1', '>= 3.1.0'
 
 # System information
 gem 'vmstat', '~> 2.3.0'
@@ -522,7 +522,7 @@ gem 'unleash', '~> 3.2.2'
 gem 'gitlab-experiment', '~> 0.7.1'
 
 # Structured logging
-gem 'lograge', '~> 0.5'
+gem 'lograge', '~> 0.11', '>= 0.11.2'
 gem 'grape_logging', '~> 1.8'
 
 # DNS Lookup
