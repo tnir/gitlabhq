@@ -124,7 +124,7 @@ gem 'grape-swagger-entity', '~> 0.5.1', group: [:development, :test]
 gem 'graphql', '~> 1.13.12'
 gem 'graphiql-rails', '~> 1.8'
 gem 'apollo_upload_server', '~> 2.1.0'
-gem 'graphql-docs', '~> 2.1.0', group: [:development, :test]
+gem 'graphql-docs', '~> 3.0.0', group: [:development, :test]
 gem 'graphlient', '~> 0.5.0' # Used by BulkImport feature (group::import)
 
 gem 'hashie', '~> 5.0.0'
@@ -187,7 +187,7 @@ gem 'typhoeus', '~> 1.4.0' # Used with Elasticsearch to support http keep-alive 
 gem 'html-pipeline', '~> 2.14.3'
 gem 'deckar01-task_list', '2.3.2'
 gem 'gitlab-markup', '~> 1.9.0', require: 'github/markup'
-gem 'commonmarker', '~> 0.23.6'
+gem 'commonmarker', '~> 0.23.10'
 gem 'kramdown', '~> 2.3.1'
 gem 'RedCloth', '~> 4.3.2'
 gem 'rdoc', '~> 6.3.2'
