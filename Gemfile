@@ -15,7 +15,7 @@ gem 'bundler-checksum', '~> 0.1.0', path: 'vendor/gems/bundler-checksum', requir
 # https://gitlab.com/gitlab-org/gitlab/-/issues/375713
 #
 # See https://docs.gitlab.com/ee/development/gemfile.html#upgrade-rails for guidelines when upgrading Rails
-gem 'rails', '~> 7.0.6'
+gem 'rails', '~> 7.0.7', '>= 7.0.7.1'
 
 gem 'activerecord-gitlab', path: 'gems/activerecord-gitlab'
 
@@ -32,16 +32,16 @@ group :monorepo do
 end
 
 # Responders respond_to and respond_with
-gem 'responders', '~> 3.0'
+gem 'responders', '~> 3.1', '>= 3.1.0'
 
 gem 'sprockets', '~> 3.7.0'
 
-gem 'view_component', '~> 3.2.0'
+gem 'view_component', '~> 3.3.0'
 
 # Supported DBs
 gem 'pg', '~> 1.5.3'
 
-gem 'neighbor', '~> 0.2.3'
+gem 'neighbor', '~> 0.3.0'
 
 gem 'rugged', '~> 1.6'
 gem 'grape-path-helpers', '~> 1.7.1'
@@ -53,7 +53,7 @@ gem 'marginalia', '~> 1.11.1'
 gem 'declarative_policy', '~> 1.1.0'
 
 # Authentication libraries
-gem 'devise', '~> 4.8.1'
+gem 'devise', '~> 4.9.0'
 gem 'devise-pbkdf2-encryptable', '~> 0.0.0', path: 'vendor/gems/devise-pbkdf2-encryptable'
 gem 'bcrypt', '~> 3.1', '>= 3.1.14'
 gem 'doorkeeper', '~> 5.6', '>= 5.6.6'
@@ -75,13 +75,13 @@ gem 'omniauth-saml', '~> 2.1.0'
 gem 'omniauth-shibboleth-redux', '~> 2.0', require: 'omniauth-shibboleth'
 gem 'omniauth-twitter', '~> 1.4'
 gem 'omniauth_crowd', '~> 2.4.0', path: 'vendor/gems/omniauth_crowd' # See vendor/gems/omniauth_crowd/README.md
-gem 'omniauth_openid_connect', '~> 0.6.1'
+gem 'omniauth_openid_connect', '~> 0.7.0'
 # Locked until Ruby 3.0 upgrade since upgrading will pull in an updated net-smtp gem.
 # See https://docs.gitlab.com/ee/development/emails.html#rationale.
-gem 'openid_connect', '= 1.3.0'
+gem 'openid_connect', '= 1.3.1'
 gem 'omniauth-salesforce', '~> 1.0.5', path: 'vendor/gems/omniauth-salesforce' # See gem README.md
 gem 'omniauth-atlassian-oauth2', '~> 0.2.0'
-gem 'rack-oauth2', '~> 1.21.3'
+gem 'rack-oauth2', '~> 2.0.0'
 gem 'jwt', '~> 2.5'
 
 # Kerberos authentication. EE-only
@@ -91,15 +91,15 @@ gem 'timfel-krb5-auth', '~> 0.8', group: :kerberos
 # Spam and anti-bot protection
 gem 'recaptcha', '~> 5.12', require: 'recaptcha/rails'
 gem 'akismet', '~> 3.0'
-gem 'invisible_captcha', '~> 2.0.0'
+gem 'invisible_captcha', '~> 2.1.0'
 
 # Two-factor authentication
-gem 'devise-two-factor', '~> 4.0.2'
+gem 'devise-two-factor', '~> 4.1.0'
 gem 'rqrcode-rails3', '~> 0.1.7'
 gem 'attr_encrypted', '~> 3.2.4', path: 'vendor/gems/attr_encrypted'
 
 # GitLab Pages
-gem 'validates_hostname', '~> 1.0.11'
+gem 'validates_hostname', '~> 1.0.13'
 gem 'rubyzip', '~> 2.3.2', require: 'zip'
 # GitLab Pages letsencrypt support
 gem 'acme-client', '~> 2.0'
@@ -121,17 +121,17 @@ gem 'net-ldap', '~> 0.17.1'
 
 # API
 gem 'grape', '~> 1.7.1'
-gem 'grape-entity', '~> 0.10.0'
+gem 'grape-entity', '~> 0.10.1'
 gem 'rack-cors', '~> 1.1.1', require: 'rack/cors'
 gem 'grape-swagger', '~> 1.6.1', group: [:development, :test]
-gem 'grape-swagger-entity', '~> 0.5.1', group: [:development, :test]
+gem 'grape-swagger-entity', '~> 0.5.2', group: [:development, :test]
 
 # GraphQL API
 gem 'graphql', '~> 1.13.12'
-gem 'graphiql-rails', '~> 1.8'
-gem 'apollo_upload_server', '~> 2.1.0'
-gem 'graphql-docs', '~> 2.1.0', group: [:development, :test]
-gem 'graphlient', '~> 0.5.0' # Used by BulkImport feature (group::import)
+gem 'graphiql-rails', '~> 1.9', '>= 1.9.0'
+gem 'apollo_upload_server', '~> 2.1.2'
+gem 'graphql-docs', '~> 3.0.0', group: [:development, :test]
+gem 'graphlient', '~> 0.6.0' # Used by BulkImport feature (group::import)
 
 # Generate Fake data
 gem 'ffaker', '~> 2.10'
@@ -145,7 +145,7 @@ gem 'kaminari', '~> 1.2.2'
 gem 'hamlit', '~> 2.15.0'
 
 # Files attachments
-gem 'carrierwave', '~> 1.3'
+gem 'carrierwave', '~> 2.0', '>= 2.0.0'
 gem 'mini_magick', '~> 4.10.1'
 
 # for backups
@@ -181,10 +181,10 @@ gem 'google-apis-androidpublisher_v3', '~> 0.34.0'
 gem 'unf', '~> 0.1.4'
 
 # Seed data
-gem 'seed-fu', '~> 2.3.7'
+gem 'seed-fu', '~> 2.3.9'
 
 # Search
-gem 'elasticsearch-model', '~> 7.2'
+gem 'elasticsearch-model', '~> 7.2', '>= 7.2.1'
 gem 'elasticsearch-rails', '~> 7.2', require: 'elasticsearch/rails/instrumentation'
 gem 'elasticsearch-api',   '7.13.3'
 gem 'aws-sdk-core', '~> 3.180.3'
@@ -230,7 +230,7 @@ group :puma do
 end
 
 # State machine
-gem 'state_machines-activerecord', '~> 0.8.0'
+gem 'state_machines-activerecord', '~> 0.9.0'
 
 # CI domain tags
 gem 'acts-as-taggable-on', '~> 9.0'
@@ -279,7 +279,7 @@ gem 'redis-actionpack', '~> 5.3.0'
 gem 'discordrb-webhooks', '~> 3.4', require: false
 
 # Jira integration
-gem 'jira-ruby', '~> 2.1.4'
+gem 'jira-ruby', '~> 2.1.5'
 gem 'atlassian-jwt', '~> 0.2.0'
 
 # Slack integration
@@ -328,7 +328,7 @@ gem 'gitlab_chronic_duration', '~> 0.10.6.2'
 
 gem 'rack-proxy', '~> 0.7.6'
 
-gem 'sassc-rails', '~> 2.1.0'
+gem 'sassc-rails', '~> 2.1.1'
 gem 'autoprefixer-rails', '10.2.5.1'
 gem 'terser', '1.0.2'
 
@@ -347,7 +347,7 @@ gem 'rack-attack', '~> 6.7.0'
 # Sentry integration
 gem 'sentry-raven', '~> 3.1'
 gem 'sentry-ruby', '~> 5.8.0'
-gem 'sentry-rails', '~> 5.8.0'
+gem 'sentry-rails', '~> 5.9.0'
 gem 'sentry-sidekiq', '~> 5.8.0'
 
 # PostgreSQL query parsing
@@ -356,16 +356,16 @@ gem 'pg_query', '~> 4.2.3'
 
 gem 'gitlab-schema-validation', path: 'gems/gitlab-schema-validation'
 
-gem 'premailer-rails', '~> 1.10.3'
+gem 'premailer-rails', '~> 1.11.0'
 
 gem 'gitlab-labkit', '~> 0.34.0'
 gem 'thrift', '>= 0.16.0'
 
 # I18n
 gem 'ruby_parser', '~> 3.20', require: false
-gem 'rails-i18n', '~> 7.0'
+gem 'rails-i18n', '~> 7.0', '>= 7.0.5'
 gem 'gettext_i18n_rails', '~> 1.11.0'
-gem 'gettext_i18n_rails_js', '~> 1.3'
+gem 'gettext_i18n_rails_js', '~> 1.3', '>= 1.3.1'
 gem 'gettext', '~> 3.3', require: false, group: :development
 
 gem 'batch-loader', '~> 2.0.1'
@@ -391,7 +391,7 @@ group :development do
   gem 'solargraph', '~> 0.47.2', require: false
 
   gem 'letter_opener_web', '~> 2.0.0'
-  gem 'lookbook', '~> 2.0', '>= 2.0.1'
+  gem 'lookbook', '~> 2.0', '>= 2.0.2'
 
   # Better errors handler
   gem 'better_errors', '~> 2.10.1'
@@ -402,8 +402,8 @@ group :development do
 end
 
 group :development, :test do
-  gem 'deprecation_toolkit', '~> 1.5.1', require: false
-  gem 'bullet', '~> 7.0.2'
+  gem 'deprecation_toolkit', '~> 2.0.0', require: false
+  gem 'bullet', '~> 7.0.3'
   gem 'parser', '~> 3.2', '>= 3.2.2.3'
   gem 'pry-byebug'
   gem 'pry-rails', '~> 0.3.9'
@@ -481,7 +481,7 @@ group :test do
 
   gem 'graphlyte', '~> 1.0.0'
 
-  gem 'shoulda-matchers', '~> 5.1.0', require: false
+  gem 'shoulda-matchers', '~> 5.2.0', require: false
   gem 'email_spec', '~> 2.2.0'
   gem 'webmock', '~> 3.18.1'
   gem 'rails-controller-testing'
@@ -542,13 +542,13 @@ gem 'toml-rb', '~> 2.2.0'
 
 # Feature toggles
 gem 'flipper', '~> 0.25.0'
-gem 'flipper-active_record', '~> 0.25.0'
-gem 'flipper-active_support_cache_store', '~> 0.25.0'
+gem 'flipper-active_record', '~> 0.25.1'
+gem 'flipper-active_support_cache_store', '~> 0.25.1'
 gem 'unleash', '~> 3.2.2'
-gem 'gitlab-experiment', '~> 0.7.1'
+gem 'gitlab-experiment', '~> 0.8.0'
 
 # Structured logging
-gem 'lograge', '~> 0.5'
+gem 'lograge', '~> 0.12', '>= 0.12.0'
 gem 'grape_logging', '~> 1.8'
 
 # DNS Lookup
@@ -578,7 +578,7 @@ gem 'microsoft_graph_mailer', '~> 0.1.0', path: 'vendor/gems/microsoft_graph_mai
 gem 'lockbox', '~> 1.1.1'
 
 # Email validation
-gem 'valid_email', '~> 0.1'
+gem 'valid_email', '~> 0.1', '>= 0.1.4'
 
 # JSON
 gem 'jsonb_accessor', '~> 1.3.10'
@@ -615,7 +615,7 @@ gem 'devfile', '~> 0.0.22.pre.alpha1'
 
 # Apple plist parsing
 gem 'CFPropertyList', '~> 3.0.0'
-gem 'app_store_connect'
+gem 'app_store_connect', '>= 0.30.0'
 
 # For phone verification
 gem 'telesignenterprise', '~> 2.2'
