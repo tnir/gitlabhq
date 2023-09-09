@@ -122,11 +122,11 @@ gem 'gitlab_omniauth-ldap', '~> 2.2.0', require: 'omniauth-ldap'
 gem 'net-ldap', '~> 0.17.1'
 
 # API
-gem 'grape', '~> 1.7.1'
+gem 'grape', '~> 1.8.0'
 gem 'grape-entity', '~> 0.10.0'
 gem 'rack-cors', '~> 1.1.1', require: 'rack/cors'
 gem 'grape-swagger', '~> 1.6.1', group: [:development, :test]
-gem 'grape-swagger-entity', '~> 0.5.1', group: [:development, :test]
+gem 'grape-swagger-entity', '~> 0.5.2', group: [:development, :test]
 
 # GraphQL API
 gem 'graphql', '~> 1.13.12'
@@ -326,7 +326,7 @@ gem 'fast_blank', '~> 1.0.1'
 gem 'gitlab-chronic', '~> 0.10.5'
 gem 'gitlab_chronic_duration', '~> 0.11'
 
-gem 'rack-proxy', '~> 0.7.6'
+gem 'rack-proxy', '~> 0.7.7'
 
 gem 'sassc-rails', '~> 2.1.0'
 gem 'autoprefixer-rails', '10.2.5.1'
