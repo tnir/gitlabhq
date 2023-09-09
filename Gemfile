@@ -63,7 +63,7 @@ gem 'doorkeeper-openid_connect', '~> 1.8', '>= 1.8.7'
 gem 'rexml', '~> 3.2.6'
 gem 'ruby-saml', '~> 1.15.0'
 gem 'omniauth', '~> 2.1.0'
-gem 'omniauth-auth0', '~> 3.1'
+gem 'omniauth-auth0', '~> 3.1', '>= 3.1.1'
 gem 'omniauth-azure-activedirectory-v2', '~> 2.0'
 gem 'omniauth-azure-oauth2', '~> 0.0.9', path: 'vendor/gems/omniauth-azure-oauth2' # See gem README.md
 gem 'omniauth-dingtalk-oauth2', '~> 1.0'
@@ -300,7 +300,7 @@ gem 'ruby-fogbugz', '~> 0.3.0'
 gem 'kubeclient', '~> 4.11.0'
 
 # AI
-gem 'ruby-openai', '~> 3.7'
+gem 'ruby-openai', '~> 4.0', '>= 4.0.0'
 gem 'circuitbox', '2.0.0'
 
 # Sanitize user input
@@ -625,6 +625,6 @@ gem 'telesignenterprise', '~> 2.2'
 gem 'net-protocol', '~> 0.1.3'
 # Lock this until we make DNS rebinding work with the updated net-http:
 # https://gitlab.com/gitlab-org/gitlab/-/issues/413528
-gem 'net-http', '= 0.1.1'
+gem 'net-http', '= 0.2.0'
 
 gem 'duo_api', '~> 1.3'
