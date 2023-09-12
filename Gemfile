@@ -238,8 +238,8 @@ gem 'state_machines-activerecord', '~> 0.8.0'
 gem 'acts-as-taggable-on', '~> 9.0'
 
 # Background jobs
-gem 'sidekiq', '~> 6.5.7'
-gem 'sidekiq-cron', '~> 1.8.0'
+gem 'sidekiq', '~> 7.1.3'
+gem 'sidekiq-cron', '~> 1.9.0'
 gem 'redis-namespace', '~> 1.9.0'
 gem 'gitlab-sidekiq-fetcher', path: 'vendor/gems/sidekiq-reliable-fetch', require: 'sidekiq-reliable-fetch'
 
@@ -348,7 +348,7 @@ gem 'rack-attack', '~> 6.7.0'
 gem 'sentry-raven', '~> 3.1'
 gem 'sentry-ruby', '~> 5.8.0'
 gem 'sentry-rails', '~> 5.8.0'
-gem 'sentry-sidekiq', '~> 5.8.0'
+gem 'sentry-sidekiq', '~> 5.9.0'
 
 # PostgreSQL query parsing
 #
