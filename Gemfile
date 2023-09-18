@@ -38,7 +38,7 @@ gem 'responders', '~> 3.0'
 
 gem 'sprockets', '~> 3.7.0'
 
-gem 'view_component', '~> 3.5.0'
+gem 'view_component', '~> 3.6.0'
 
 # Supported DBs
 gem 'pg', '~> 1.5.4'
@@ -67,7 +67,7 @@ gem 'omniauth-auth0', '~> 3.1'
 gem 'omniauth-azure-activedirectory-v2', '~> 2.0'
 gem 'omniauth-azure-oauth2', '~> 0.0.9', path: 'vendor/gems/omniauth-azure-oauth2' # See gem README.md
 gem 'omniauth-dingtalk-oauth2', '~> 1.0'
-gem 'omniauth-alicloud', '~> 2.0.1'
+gem 'omniauth-alicloud', '~> 3.0.0'
 gem 'omniauth-facebook', '~> 4.0.0'
 gem 'omniauth-github', '2.0.1'
 gem 'omniauth-gitlab', '~> 4.0.0', path: 'vendor/gems/omniauth-gitlab' # See vendor/gems/omniauth-gitlab/README.md
@@ -525,12 +525,12 @@ gem 'ssh_data', '~> 1.3'
 gem 'spamcheck', '~> 1.3.0'
 
 # Gitaly GRPC protocol definitions
-gem 'gitaly', '~> 16.3.0-rc1'
+gem 'gitaly', '~> 16.3.0'
 
 # KAS GRPC protocol definitions
 gem 'kas-grpc', '~> 0.2.0'
 
-gem 'grpc', '~> 1.55.0'
+gem 'grpc', '~> 1.55.3'
 
 gem 'google-protobuf', '~> 3.24', '>= 3.24.3'
 
