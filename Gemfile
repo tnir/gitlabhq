@@ -19,7 +19,7 @@ gem 'rails', '~> 7.0.6'
 
 gem 'activerecord-gitlab', path: 'gems/activerecord-gitlab'
 
-gem 'vite_rails'
+gem 'vite_rails', '>= 3.0.16'
 
 gem 'bootsnap', '~> 1.16.0', require: false
 
