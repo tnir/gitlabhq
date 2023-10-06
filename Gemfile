@@ -24,11 +24,11 @@ gem 'bundler-checksum', '~> 0.1.0', path: 'vendor/gems/bundler-checksum', requir
 # https://gitlab.com/gitlab-org/gitlab/-/issues/375713
 #
 # See https://docs.gitlab.com/ee/development/gemfile.html#upgrade-rails for guidelines when upgrading Rails
-gem 'rails', '~> 7.0.8' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'rails', '~> 7.1.0' # rubocop:todo Gemfile/MissingFeatureCategory
 
 gem 'activerecord-gitlab', path: 'gems/activerecord-gitlab' # rubocop:todo Gemfile/MissingFeatureCategory
 
-gem 'vite_rails' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'vite_rails' , '>= 3.0.16' # rubocop:todo Gemfile/MissingFeatureCategory
 
 gem 'bootsnap', '~> 1.16.0', require: false # rubocop:todo Gemfile/MissingFeatureCategory
 
@@ -43,7 +43,7 @@ group :monorepo do
 end
 
 # Responders respond_to and respond_with
-gem 'responders', '~> 3.0' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'responders', '~> 3.1', '>= 3.1.0' # rubocop:todo Gemfile/MissingFeatureCategory
 
 gem 'sprockets', '~> 3.7.0' # rubocop:todo Gemfile/MissingFeatureCategory
 
@@ -64,7 +64,7 @@ gem 'marginalia', '~> 1.11.1' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'declarative_policy', '~> 1.1.0' # rubocop:todo Gemfile/MissingFeatureCategory
 
 # Authentication libraries
-gem 'devise', '~> 4.8.1' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'devise', '~> 4.9.0' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'devise-pbkdf2-encryptable', '~> 0.0.0', path: 'vendor/gems/devise-pbkdf2-encryptable' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'bcrypt', '~> 3.1', '>= 3.1.14' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'doorkeeper', '~> 5.6', '>= 5.6.6' # rubocop:todo Gemfile/MissingFeatureCategory
@@ -86,7 +86,7 @@ gem 'omniauth-saml', '~> 2.1.0' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'omniauth-shibboleth-redux', '~> 2.0', require: 'omniauth-shibboleth' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'omniauth-twitter', '~> 1.4' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'omniauth_crowd', '~> 2.4.0', path: 'vendor/gems/omniauth_crowd' # See vendor/gems/omniauth_crowd/README.md # rubocop:todo Gemfile/MissingFeatureCategory
-gem 'omniauth_openid_connect', '~> 0.6.1' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'omniauth_openid_connect', '~> 0.7.0' # rubocop:todo Gemfile/MissingFeatureCategory
 # Locked until Ruby 3.0 upgrade since upgrading will pull in an updated net-smtp gem.
 # See https://docs.gitlab.com/ee/development/emails.html#rationale.
 gem 'openid_connect', '= 1.3.0' # rubocop:todo Gemfile/MissingFeatureCategory
@@ -105,7 +105,7 @@ gem 'akismet', '~> 3.0' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'invisible_captcha', '~> 2.1.0' # rubocop:todo Gemfile/MissingFeatureCategory
 
 # Two-factor authentication
-gem 'devise-two-factor', '~> 4.0.2' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'devise-two-factor', '~> 5.0.0' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'rqrcode-rails3', '~> 0.1.7' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'attr_encrypted', '~> 3.2.4', path: 'vendor/gems/attr_encrypted' # rubocop:todo Gemfile/MissingFeatureCategory
 
@@ -139,8 +139,8 @@ gem 'grape-swagger-entity', '~> 0.5.1', group: [:development, :test] # rubocop:t
 
 # GraphQL API
 gem 'graphql', '~> 1.13.19' # rubocop:todo Gemfile/MissingFeatureCategory
-gem 'graphiql-rails', '~> 1.8.0' # rubocop:todo Gemfile/MissingFeatureCategory
-gem 'apollo_upload_server', '~> 2.1.0' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'graphiql-rails', '~> 1.9.0' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'apollo_upload_server', '~> 2.1.2' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'graphql-docs', '~> 2.1.0', group: [:development, :test] # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'graphlient', '~> 0.5.0' # Used by BulkImport feature (group::import) # rubocop:todo Gemfile/MissingFeatureCategory
 
@@ -330,7 +330,7 @@ gem 'gitlab_chronic_duration', '~> 0.12' # rubocop:todo Gemfile/MissingFeatureCa
 
 gem 'rack-proxy', '~> 0.7.7' # rubocop:todo Gemfile/MissingFeatureCategory
 
-gem 'sassc-rails', '~> 2.1.0' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'sassc-rails', '~> 2.1.1' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'autoprefixer-rails', '10.2.5.1' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'terser', '1.0.2' # rubocop:todo Gemfile/MissingFeatureCategory
 
@@ -349,7 +349,7 @@ gem 'rack-attack', '~> 6.7.0' # rubocop:todo Gemfile/MissingFeatureCategory
 # Sentry integration
 gem 'sentry-raven', '~> 3.1' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'sentry-ruby', '~> 5.8.0' # rubocop:todo Gemfile/MissingFeatureCategory
-gem 'sentry-rails', '~> 5.8.0' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'sentry-rails', '~> 5.9.0' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'sentry-sidekiq', '~> 5.8.0' # rubocop:todo Gemfile/MissingFeatureCategory
 
 # PostgreSQL query parsing
@@ -359,15 +359,15 @@ gem 'pg_query', '~> 4.2.3' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'gitlab-schema-validation', path: 'gems/gitlab-schema-validation' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'gitlab-http', path: 'gems/gitlab-http' # rubocop:todo Gemfile/MissingFeatureCategory
 
-gem 'premailer-rails', '~> 1.10.3' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'premailer-rails', '~> 1.11.0' # rubocop:todo Gemfile/MissingFeatureCategory
 
 gem 'gitlab-labkit', '~> 0.34.0' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'thrift', '>= 0.16.0' # rubocop:todo Gemfile/MissingFeatureCategory
 
 # I18n
-gem 'rails-i18n', '~> 7.0' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'rails-i18n', '~> 7.0', '>= 7.0.5' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'gettext_i18n_rails', '~> 1.11.0' # rubocop:todo Gemfile/MissingFeatureCategory
-gem 'gettext_i18n_rails_js', '~> 1.3' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'gettext_i18n_rails_js', '~> 1.3', '>= 1.3.1' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'gettext', '~> 3.3', require: false, group: :development # rubocop:todo Gemfile/MissingFeatureCategory
 
 gem 'batch-loader', '~> 2.0.1' # rubocop:todo Gemfile/MissingFeatureCategory
@@ -393,7 +393,7 @@ group :development do
   gem 'solargraph', '~> 0.47.2', require: false # rubocop:todo Gemfile/MissingFeatureCategory
 
   gem 'letter_opener_web', '~> 2.0.0' # rubocop:todo Gemfile/MissingFeatureCategory
-  gem 'lookbook', '~> 2.0', '>= 2.0.1' # rubocop:todo Gemfile/MissingFeatureCategory
+  gem 'lookbook', '~> 2.0', '>= 2.0.2' # rubocop:todo Gemfile/MissingFeatureCategory
 
   # Better errors handler
   gem 'better_errors', '~> 2.10.1' # rubocop:todo Gemfile/MissingFeatureCategory
@@ -553,7 +553,7 @@ gem 'unleash', '~> 3.2.2' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'gitlab-experiment', '~> 0.8.0' # rubocop:todo Gemfile/MissingFeatureCategory
 
 # Structured logging
-gem 'lograge', '~> 0.5' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'lograge', '~> 0.12', '>= 0.12.0' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'grape_logging', '~> 1.8' # rubocop:todo Gemfile/MissingFeatureCategory
 
 # DNS Lookup
