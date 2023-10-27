@@ -24,7 +24,7 @@ gem 'bundler-checksum', '~> 0.1.0', path: 'vendor/gems/bundler-checksum', requir
 # https://gitlab.com/gitlab-org/gitlab/-/issues/375713
 #
 # See https://docs.gitlab.com/ee/development/gemfile.html#upgrade-rails for guidelines when upgrading Rails
-gem 'rails', '~> 7.0.8' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'rails', '~> 7.1.0' # rubocop:todo Gemfile/MissingFeatureCategory
 
 gem 'activerecord-gitlab', path: 'gems/activerecord-gitlab' # rubocop:todo Gemfile/MissingFeatureCategory
 
@@ -365,7 +365,7 @@ gem 'thrift', '>= 0.16.0' # rubocop:todo Gemfile/MissingFeatureCategory
 # I18n
 gem 'rails-i18n', '~> 7.0' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'gettext_i18n_rails', '~> 1.11.0' # rubocop:todo Gemfile/MissingFeatureCategory
-gem 'gettext_i18n_rails_js', '~> 1.3' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'gettext_i18n_rails_js', '~> 1.3', '>= 1.3.1' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'gettext', '~> 3.3', require: false, group: :development # rubocop:todo Gemfile/MissingFeatureCategory
 
 gem 'batch-loader', '~> 2.0.1' # rubocop:todo Gemfile/MissingFeatureCategory
