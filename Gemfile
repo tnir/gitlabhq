@@ -412,7 +412,7 @@ group :development, :test do
   gem 'awesome_print', require: false # rubocop:todo Gemfile/MissingFeatureCategory
 
   gem 'database_cleaner', '~> 1.7.0' # rubocop:todo Gemfile/MissingFeatureCategory
-  gem 'factory_bot_rails', '~> 6.2.0' # rubocop:todo Gemfile/MissingFeatureCategory
+  gem 'factory_bot_rails', '~> 6.3.0' # rubocop:todo Gemfile/MissingFeatureCategory
   gem 'rspec-rails', '~> 6.0.3' # rubocop:todo Gemfile/MissingFeatureCategory
 
   # Prevent occasions where minitest is not bundled in packaged versions of ruby (see #3826)
