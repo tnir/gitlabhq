@@ -138,7 +138,7 @@ gem 'grape-entity', '~> 0.10.0', feature_category: :api
 gem 'grape-swagger', '~> 2.0.1', group: [:development, :test], feature_category: :api
 gem 'grape-swagger-entity', '~> 0.5.1', group: [:development, :test], feature_category: :api
 gem 'grape-path-helpers', '~> 2.0.0', feature_category: :api
-gem 'rack-cors', '~> 2.0.1', require: 'rack/cors' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'rack-cors', '~> 2.0.2', require: 'rack/cors' # rubocop:todo Gemfile/MissingFeatureCategory
 
 # GraphQL API
 gem 'graphql', '~> 2.2.5', feature_category: :api
@@ -215,7 +215,7 @@ gem 'typhoeus', '~> 1.4.0' # Used with Elasticsearch to support http keep-alive 
 
 # Markdown and HTML processing
 gem 'html-pipeline', '~> 2.14.3', feature_category: :team_planning
-gem 'deckar01-task_list', '2.3.3', feature_category: :team_planning
+gem 'deckar01-task_list', '2.3.4', feature_category: :team_planning
 gem 'gitlab-markup', '~> 1.9.0', require: 'github/markup' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'commonmarker', '~> 0.23.10', feature_category: :team_planning
 gem 'kramdown', '~> 2.3.1' # rubocop:todo Gemfile/MissingFeatureCategory
