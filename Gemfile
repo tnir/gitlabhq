@@ -374,7 +374,7 @@ gem 'gitlab-schema-validation', path: 'gems/gitlab-schema-validation' # rubocop:
 gem 'gitlab-http', path: 'gems/gitlab-http' # rubocop:todo Gemfile/MissingFeatureCategory
 
 gem 'premailer-rails', '~> 1.10.3' # rubocop:todo Gemfile/MissingFeatureCategory
-gem 'gitlab-labkit', '~> 0.36.0', feature_category: :shared
+gem 'gitlab-labkit', '~> 0.36.1', feature_category: :shared
 gem 'thrift', '>= 0.16.0' # rubocop:todo Gemfile/MissingFeatureCategory
 
 # I18n
