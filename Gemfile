@@ -355,7 +355,7 @@ gem 'babosa', '~> 2.0' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'loofah', '~> 2.22.0' # rubocop:todo Gemfile/MissingFeatureCategory
 
 # Used to provide license templates
-gem 'licensee', '~> 9.16' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'licensee', '~> 9.17', '>= 9.17.0' # rubocop:todo Gemfile/MissingFeatureCategory
 
 # Detect and convert string character encoding
 gem 'charlock_holmes', '~> 0.7.9', feature_category: :shared
