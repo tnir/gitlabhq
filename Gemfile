@@ -246,7 +246,7 @@ gem 'gitlab-active-context', path: 'gems/gitlab-active-context', require: 'activ
   feature_category: :global_search
 
 # Markdown and HTML processing
-gem 'html-pipeline', '~> 2.14.3', feature_category: :markdown
+gem 'html-pipeline', '~> 3.0.0', feature_category: :markdown
 gem 'deckar01-task_list', '2.3.4', feature_category: :markdown
 gem 'gitlab-markup', '~> 1.9.0', require: 'github/markup', feature_category: :markdown
 gem 'commonmarker', '~> 0.23.10', feature_category: :markdown
@@ -261,7 +261,7 @@ gem 'asciidoctor-plantuml', '~> 0.0.16', feature_category: :markdown
 gem 'asciidoctor-kroki', '~> 0.10.0', require: false, feature_category: :markdown
 gem 'rouge', '~> 4.4.0', feature_category: :shared
 gem 'truncato', '~> 0.7.12', feature_category: :team_planning
-gem 'nokogiri', '~> 1.16', feature_category: :shared
+gem 'nokogiri', '~> 1.16', '>= 1.16.8', feature_category: :shared
 gem 'gitlab-glfm-markdown', '~> 0.0.21', feature_category: :markdown
 gem 'tanuki_emoji', '~> 0.13', feature_category: :markdown
 gem 'unicode-emoji', '~> 4.0', feature_category: :markdown
