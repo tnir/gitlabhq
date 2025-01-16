@@ -187,7 +187,7 @@
     "pinia": "^2.2.2",
     "popper.js": "^1.16.1",
     "portal-vue": "^2.1.7",
-    "postcss": "^8.4.35",
+    "postcss": "^8.5.0",
     "postcss-custom-properties": "^13.3.12",
     "prettier": "^3.3.2",
     "prosemirror-markdown": "1.13.1",
