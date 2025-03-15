@@ -95,7 +95,7 @@ gem 'doorkeeper', '~> 5.8', '>= 5.8.1', feature_category: :system_access
 gem 'doorkeeper-openid_connect', '~> 1.8.10', feature_category: :system_access
 gem 'doorkeeper-device_authorization_grant', '~> 1.0.0', feature_category: :system_access
 gem 'rexml', '~> 3.4.0', feature_category: :shared
-gem 'ruby-saml', '~> 1.17.0', feature_category: :system_access
+gem 'ruby-saml', '~> 1.18.0', feature_category: :system_access
 gem 'omniauth', '~> 2.1.0', feature_category: :system_access
 gem 'omniauth-auth0', '~> 3.1', feature_category: :system_access
 gem 'omniauth-azure-activedirectory-v2', '~> 2.0', feature_category: :system_access
@@ -105,7 +105,7 @@ gem 'omniauth-github', '2.0.1', feature_category: :system_access
 gem 'omniauth-gitlab', '~> 4.0.0', path: 'vendor/gems/omniauth-gitlab', feature_category: :system_access
 gem 'omniauth-google-oauth2', '~> 1.1', feature_category: :system_access
 gem 'omniauth-oauth2-generic', '~> 0.2.2', feature_category: :system_access
-gem 'omniauth-saml', '~> 2.2.1', feature_category: :system_access
+gem 'omniauth-saml', '~> 2.2.3', feature_category: :system_access
 gem 'omniauth-shibboleth-redux', '~> 2.0', require: 'omniauth-shibboleth', feature_category: :system_access
 # See vendor/gems/omniauth_crowd/README.md
 gem 'omniauth_crowd', '~> 2.4.0', path: 'vendor/gems/omniauth_crowd', feature_category: :system_access
@@ -124,7 +124,7 @@ gem 'gssapi', '~> 1.3.1', group: :kerberos, feature_category: :system_access
 gem 'timfel-krb5-auth', '~> 0.8', group: :kerberos, feature_category: :system_access
 
 # Spam and anti-bot protection
-gem 'recaptcha', '~> 5.12', require: 'recaptcha/rails', feature_category: :insider_threat
+gem 'recaptcha', '~> 5.14', '>= 5.14.0', require: 'recaptcha/rails', feature_category: :insider_threat
 gem 'akismet', '~> 3.0', feature_category: :insider_threat
 gem 'invisible_captcha', '~> 2.1.0', feature_category: :insider_threat
 
@@ -164,7 +164,7 @@ gem 'grape-path-helpers', '~> 2.0.1', feature_category: :api
 gem 'rack-cors', '~> 2.0.1', require: 'rack/cors', feature_category: :shared
 
 # GraphQL API
-gem 'graphql', '~> 2.4.1', feature_category: :api
+gem 'graphql', '~> 2.4.13', feature_category: :api
 gem 'graphql-docs', '~> 5.0.0', group: [:development, :test], feature_category: :api
 gem 'apollo_upload_server', '~> 2.1.6', feature_category: :api
 gem 'graphlient', '~> 0.8.0', feature_category: :importers # Used by BulkImport feature (group::import)
@@ -236,7 +236,7 @@ gem 'google-cloud-compute-v1', '~> 2.6.0', feature_category: :shared
 gem 'seed-fu', '~> 2.3.7', feature_category: :shared
 
 # Search
-gem 'elasticsearch-model', '~> 7.2', feature_category: :global_search
+gem 'elasticsearch-model', '~> 8.0', '>= 8.0.0', feature_category: :global_search
 gem 'elasticsearch-rails', '~> 7.2', require: 'elasticsearch/rails/instrumentation', feature_category: :global_search
 gem 'elasticsearch-api', '7.17.11', feature_category: :global_search
 gem 'aws-sdk-core', '~> 3.215.0', feature_category: :global_search
@@ -695,7 +695,7 @@ gem 'valid_email', '~> 0.1', feature_category: :shared
 
 # JSON
 gem 'jsonb_accessor', '~> 1.4', feature_category: :shared
-gem 'json', '~> 2.10.0', feature_category: :shared
+gem 'json', '~> 2.10.2', feature_category: :shared
 gem 'json_schemer', '~> 2.3.0', feature_category: :shared
 gem 'oj', '~> 3.16.0', '>=3.16.10', feature_category: :shared
 gem 'oj-introspect', '~> 0.8', feature_category: :shared
