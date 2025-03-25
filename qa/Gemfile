@@ -36,7 +36,7 @@ gem "warning", "~> 1.4"
 gem "mutex_m", "~> 0.3.0"
 
 # dependencies for jenkins client
-gem 'nokogiri', '~> 1.18', '>= 1.18.1'
+gem 'nokogiri', '~> 1.18', '>= 1.18.4'
 
 gem 'deprecation_toolkit', '~> 2.2.2', require: false
 
