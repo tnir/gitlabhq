@@ -206,7 +206,7 @@
     "remark-gfm": "^3.0.1",
     "remark-parse": "^10.0.2",
     "remark-rehype": "^10.1.0",
-    "sass": "^1.69.7",
+    "sass": "^1.79.0",
     "scrollparent": "^2.0.1",
     "semver": "^7.3.4",
     "sortablejs": "^1.10.2",
