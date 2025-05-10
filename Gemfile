@@ -25,7 +25,7 @@ gem 'bundler-checksum', '~> 0.1.0', path: 'vendor/gems/bundler-checksum', requir
 #
 # See https://docs.gitlab.com/ee/development/gemfile.html#upgrade-rails for guidelines when upgrading Rails
 
-gem 'rails', '~> 7.1.5.1', feature_category: :shared
+gem 'rails', '~> 7.2.0.0', feature_category: :shared
 
 gem 'activerecord-gitlab', path: 'gems/activerecord-gitlab', feature_category: :shared
 # This can be dropped after upgrading to Rails 7.2: https://github.com/rails/rails/pull/49674
@@ -152,7 +152,7 @@ gem 'gitlab_omniauth-ldap', '~> 2.2.0', require: 'omniauth-ldap', feature_catego
 gem 'net-ldap', '~> 0.17.1', feature_category: :system_access
 
 # API
-gem 'grape', '~> 2.0.0', feature_category: :api
+gem 'grape', '~> 2.1.0', feature_category: :api
 gem 'grape-entity', '~> 1.0.1', feature_category: :api
 gem 'grape-swagger', '~> 2.1.2', group: [:development, :test], feature_category: :api
 gem 'grape-swagger-entity', '~> 0.5.5', group: [:development, :test], feature_category: :api
@@ -278,7 +278,7 @@ gem 'diffy', '~> 3.4', feature_category: :shared
 gem 'diff_match_patch', '~> 0.1.0', path: 'vendor/gems/diff_match_patch', feature_category: :team_planning
 
 # Application server
-gem 'rack', '~> 2.2.9', feature_category: :shared
+gem 'rack', '~> 2.2.14', feature_category: :shared
 # https://github.com/zombocom/rack-timeout/blob/master/README.md#rails-apps-manually
 gem 'rack-timeout', '~> 0.7.0', require: 'rack/timeout/base', feature_category: :shared
 
