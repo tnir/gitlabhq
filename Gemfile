@@ -157,7 +157,7 @@ gem 'grape-entity', '~> 1.0.1', feature_category: :api
 gem 'grape-swagger', '~> 2.1.2', group: [:development, :test], feature_category: :api
 gem 'grape-swagger-entity', '~> 0.5.5', group: [:development, :test], feature_category: :api
 gem 'grape-path-helpers', '~> 2.0.1', feature_category: :api
-gem 'rack-cors', '~> 2.0.1', require: 'rack/cors', feature_category: :shared
+gem 'rack-cors', '~> 3.0.0', require: 'rack/cors', feature_category: :shared
 
 # GraphQL API
 gem 'graphql', '2.4.13', feature_category: :api
@@ -228,7 +228,7 @@ gem 'google-apis-sqladmin_v1beta4', '~> 0.41.0', feature_category: :shared
 gem 'google-apis-androidpublisher_v3', '~> 0.34.0', feature_category: :shared
 
 gem 'googleauth', '~> 1.8.1', feature_category: :shared
-gem 'google-cloud-artifact_registry-v1', '~> 0.11.0', feature_category: :shared
+gem 'google-cloud-artifact_registry-v1', '~> 1.5.0', feature_category: :shared
 gem 'google-cloud-compute-v1', '~> 2.6.0', feature_category: :shared
 
 # Seed data
