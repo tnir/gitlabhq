@@ -1330,12 +1330,27 @@
   dependencies:
     "@floating-ui/utils" "^0.2.9"
 
+"@floating-ui/core@^1.7.0":
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/@floating-ui/core/-/core-1.7.0.tgz#1aff27a993ea1b254a586318c29c3b16ea0f4d0a"
+  integrity sha512-FRdBLykrPPA6P76GGGqlex/e7fbe0F1ykgxHYNXQsH/iTEtjMj/f9bpY5oQqbjt5VgZvgz/uKXbGuROijh3VLA==
+  dependencies:
+    "@floating-ui/utils" "^0.2.9"
+
 "@floating-ui/dom@1.6.13", "@floating-ui/dom@^1.0.0", "@floating-ui/dom@^1.6.13":
   version "1.6.13"
   resolved "https://registry.yarnpkg.com/@floating-ui/dom/-/dom-1.6.13.tgz#a8a938532aea27a95121ec16e667a7cbe8c59e34"
   integrity sha512-umqzocjDgNRGTuO7Q8CU32dkHkECqI8ZdMZ5Swb6QAM0t5rnlrN3lGo1hdpscRd3WS8T6DKYK4ephgIH9iRh3w==
   dependencies:
     "@floating-ui/core" "^1.6.0"
+    "@floating-ui/utils" "^0.2.9"
+
+"@floating-ui/dom@1.7.0":
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/@floating-ui/dom/-/dom-1.7.0.tgz#f9f83ee4fee78ac23ad9e65b128fc11a27857532"
+  integrity sha512-lGTor4VlXcesUMh1cupTUTDoCxMb0V6bm3CnxHzQcw8Eaf1jQbgQX4i02fYgT0vJ82tb5MZ4CZk1LRGkktJCzg==
+  dependencies:
+    "@floating-ui/core" "^1.7.0"
     "@floating-ui/utils" "^0.2.9"
 
 "@floating-ui/react-dom@^2.0.0":
@@ -1441,13 +1456,13 @@
   resolved "https://registry.yarnpkg.com/@gitlab/svgs/-/svgs-3.128.0.tgz#fa4691b33b7f6d2b34fee7a77bcd8accc4690355"
   integrity sha512-W+2LWpbztWksJ62hhZ2A4pPOksofHUUazqEYPqQP7DMAtt7n7NzfdNeCNy5i1BULEeBaBzvOAGBUObx4FbQj3w==
 
-"@gitlab/ui@113.2.2":
-  version "113.2.2"
-  resolved "https://registry.yarnpkg.com/@gitlab/ui/-/ui-113.2.2.tgz#c790e3787e80719fd116b6aa06cbfa8cf815a63f"
-  integrity sha512-u3ORLt2hO/5zXNg4Co9gvyujmYQ8+IhOBTxtWQ74mkf4DO38+Ek/HzS/BRj8pKNnepAYg17vrP0aR1lWaSGP0Q==
+"@gitlab/ui@114.1.0":
+  version "114.1.0"
+  resolved "https://registry.yarnpkg.com/@gitlab/ui/-/ui-114.1.0.tgz#f44eb6640ca9dc2bee91723e6fd55f467da9e7ea"
+  integrity sha512-kfBkMd32U8poFpu9pJz//4EjABh69xUokPV+BQPbmw4l94SW54da6FpIYxjouaK0oxu7BzVFmJSOi0yU5fmPPg==
   dependencies:
-    "@floating-ui/dom" "1.6.13"
-    echarts "^5.3.2"
+    "@floating-ui/dom" "1.7.0"
+    echarts "^5.6.0"
     iframe-resizer "^4.3.2"
     lodash "^4.17.20"
     popper.js "^1.16.1"
@@ -6876,6 +6891,14 @@ echarts@^5.3.2:
   dependencies:
     tslib "2.3.0"
     zrender "5.3.2"
+
+echarts@^5.6.0:
+  version "5.6.0"
+  resolved "https://registry.yarnpkg.com/echarts/-/echarts-5.6.0.tgz#2377874dca9fb50f104051c3553544752da3c9d6"
+  integrity sha512-oTbVTsXfKuEhxftHqL5xprgLoc0k7uScAwtryCgWF6hPYFLRwOUHiFmHGCBKP5NPFNkDVopOieyUqYGH8Fa3kA==
+  dependencies:
+    tslib "2.3.0"
+    zrender "5.6.1"
 
 editorconfig@^0.15.3:
   version "0.15.3"
@@ -15777,6 +15800,13 @@ zrender@5.3.2:
   version "5.3.2"
   resolved "https://registry.yarnpkg.com/zrender/-/zrender-5.3.2.tgz#f67b11d36d3d020d62411d3bb123eb1c93cccd69"
   integrity sha512-8IiYdfwHj2rx0UeIGZGGU4WEVSDEdeVCaIg/fomejg1Xu6OifAL1GVzIPHg2D+MyUkbNgPWji90t0a8IDk+39w==
+  dependencies:
+    tslib "2.3.0"
+
+zrender@5.6.1:
+  version "5.6.1"
+  resolved "https://registry.yarnpkg.com/zrender/-/zrender-5.6.1.tgz#e08d57ecf4acac708c4fcb7481eb201df7f10a6b"
+  integrity sha512-OFXkDJKcrlx5su2XbzJvj/34Q3m6PvyCZkVPHGYpcCJ52ek4U/ymZyfuV1nKE23AyBJ51E/6Yr0mhZ7xGTO4ag==
   dependencies:
     tslib "2.3.0"
 
