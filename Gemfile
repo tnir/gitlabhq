@@ -95,8 +95,8 @@ gem 'doorkeeper', '~> 5.8', '>= 5.8.1', feature_category: :system_access
 gem 'doorkeeper-openid_connect', '~> 1.8.10', feature_category: :system_access
 gem 'doorkeeper-device_authorization_grant', '~> 1.0.0', feature_category: :system_access
 gem 'rexml', '~> 3.4.0', feature_category: :shared
-gem 'ruby-saml', '~> 1.18', feature_category: :system_access
-gem 'omniauth-saml', '~> 2.2.1', feature_category: :system_access
+gem 'ruby-saml', '~> 1.18', '>= 1.18.1', feature_category: :system_access
+gem 'omniauth-saml', '~> 2.2.4', feature_category: :system_access
 gem 'omniauth', '~> 2.1.0', feature_category: :system_access
 gem 'omniauth-auth0', '~> 3.1', feature_category: :system_access
 gem 'omniauth-azure-activedirectory-v2', '~> 2.0', feature_category: :system_access
