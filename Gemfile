@@ -26,9 +26,9 @@ gem 'bundler-checksum', '~> 0.1.0', path: 'gems/bundler-checksum', require: fals
 # See https://docs.gitlab.com/ee/development/gemfile.html#upgrade-rails for guidelines when upgrading Rails
 
 if next?
-  gem 'rails', '~> 7.2.2.1', feature_category: :shared
+  gem 'rails', '~> 7.1.5.2', feature_category: :shared
 else
-  gem 'rails', '~> 7.1.5.1', feature_category: :shared
+  gem 'rails', '~> 7.1.5.2', feature_category: :shared
 end
 
 gem 'activerecord-gitlab', path: 'gems/activerecord-gitlab', feature_category: :shared
@@ -126,7 +126,7 @@ gem 'timfel-krb5-auth', '~> 0.8', group: :kerberos, feature_category: :system_ac
 # Spam and anti-bot protection
 gem 'recaptcha', '~> 5.12', require: 'recaptcha/rails', feature_category: :insider_threat
 gem 'akismet', '~> 3.0', feature_category: :insider_threat
-gem 'invisible_captcha', '~> 2.1.0', feature_category: :insider_threat
+gem 'invisible_captcha', '~> 2.2.0', feature_category: :insider_threat
 
 # Two-factor authentication
 gem 'devise-two-factor', '~> 4.1.1', feature_category: :system_access
@@ -292,7 +292,7 @@ group :puma do
 end
 
 # State machine
-gem 'state_machines-activerecord', '~> 0.8.0', feature_category: :shared
+gem 'state_machines-activerecord', '~> 0.9.0', feature_category: :shared
 
 # Background jobs
 gem 'sidekiq', path: 'vendor/gems/sidekiq', require: 'sidekiq', feature_category: :scalability
@@ -380,7 +380,7 @@ gem 'rack-proxy', '~> 0.7.7', feature_category: :shared
 gem 'cssbundling-rails', '1.4.3', feature_category: :shared
 gem 'terser', '1.0.2', feature_category: :shared
 
-gem 'click_house-client', '0.3.1', feature_category: :database
+gem 'click_house-client', '0.3.2', feature_category: :database
 gem 'addressable', '~> 2.8', feature_category: :shared
 gem 'gon', '~> 6.4.0', feature_category: :shared
 gem 'request_store', '~> 1.7.0', feature_category: :shared
@@ -509,7 +509,7 @@ group :development, :test do
 
   gem 'awesome_print', require: false, feature_category: :shared
 
-  gem 'database_cleaner-active_record', '~> 2.2.0', feature_category: :database
+  gem 'database_cleaner-active_record', '~> 2.2.2', feature_category: :database
   gem 'rspec-rails', '~> 7.1.0', feature_category: :shared
   gem 'factory_bot_rails', '~> 6.5.0', feature_category: :tooling
 
@@ -656,7 +656,7 @@ gem 'toml-rb', '~> 2.2.0', feature_category: :shared
 
 # Feature toggles
 gem 'flipper', '~> 0.28.0', feature_category: :shared
-gem 'flipper-active_record', '~> 0.28.0', feature_category: :shared
+gem 'flipper-active_record', '~> 1.0.0', feature_category: :shared
 gem 'flipper-active_support_cache_store', '~> 0.28.0', feature_category: :shared
 gem 'unleash', '~> 3.2.2', feature_category: :shared
 gem 'gitlab-experiment', '~> 0.9.1', feature_category: :shared
