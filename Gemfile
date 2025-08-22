@@ -152,7 +152,7 @@ gem 'gpgme', '~> 2.0.24', feature_category: :source_code_management
 # LDAP Auth
 # GitLab fork with several improvements to original library. For full list of changes
 # see https://github.com/intridea/omniauth-ldap/compare/master...gitlabhq:master
-gem 'gitlab_omniauth-ldap', '~> 2.2.0', require: 'omniauth-ldap', feature_category: :system_access
+gem 'gitlab_omniauth-ldap', '~> 2.3.0', require: 'omniauth-ldap', feature_category: :system_access
 gem 'net-ldap', '~> 0.17.1', feature_category: :system_access
 
 # API
@@ -382,7 +382,7 @@ gem 'terser', '1.0.2', feature_category: :shared
 
 gem 'click_house-client', '0.3.1', feature_category: :database
 gem 'addressable', '~> 2.8', feature_category: :shared
-gem 'gon', '~> 6.4.0', feature_category: :shared
+gem 'gon', '~> 6.5.0', feature_category: :shared
 gem 'request_store', '~> 1.7.0', feature_category: :shared
 gem 'base32', '~> 0.3.0', feature_category: :shared
 gem 'gitlab-license', '~> 2.6', feature_category: :shared
