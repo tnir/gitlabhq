@@ -476,7 +476,7 @@ group :development do
   gem 'debug', '~> 1.11.0', feature_category: :shared
 
   gem 'solargraph', '~> 0.54.0', require: false, feature_category: :shared
-  gem 'solargraph-rspec', '~> 0.5.1', require: false, feature_category: :shared
+  gem 'solargraph-rspec', '~> 0.5.3', require: false, feature_category: :shared
 
   gem 'letter_opener_web', '~> 3.0.0', feature_category: :shared
   gem 'lookbook', '~> 2.3', feature_category: :shared
@@ -514,7 +514,7 @@ group :development, :test do
 
   gem 'database_cleaner-active_record', '~> 2.2.0', feature_category: :database
   gem 'rspec-rails', '~> 7.1.0', feature_category: :shared
-  gem 'factory_bot_rails', '~> 6.5.0', feature_category: :tooling
+  gem 'factory_bot_rails', '~> 6.5.1', feature_category: :tooling
 
   # Prevent occasions where minitest is not bundled in packaged versions of ruby (see #3826)
   gem 'minitest', '~> 5.11.0', feature_category: :shared
