@@ -97,7 +97,7 @@ gem 'doorkeeper-device_authorization_grant', '~> 1.0.0', feature_category: :syst
 gem 'rexml', '~> 3.4.0', feature_category: :shared
 gem 'ruby-saml', '~> 1.18', feature_category: :system_access
 gem 'omniauth-saml', '~> 2.2.1', feature_category: :system_access
-gem 'omniauth', '~> 2.1.0', feature_category: :system_access
+gem 'omniauth', '~> 2.1.4', feature_category: :system_access
 gem 'omniauth-auth0', '~> 3.1', feature_category: :system_access
 gem 'omniauth-azure-activedirectory-v2', '~> 2.0', feature_category: :system_access
 gem 'omniauth-alicloud', '~> 3.0.0', feature_category: :system_access
@@ -656,7 +656,7 @@ gem 'flipper', '~> 0.28.0', feature_category: :shared
 gem 'flipper-active_record', '~> 0.28.0', feature_category: :shared
 gem 'flipper-active_support_cache_store', '~> 0.28.0', feature_category: :shared
 gem 'unleash', '~> 3.2.2', feature_category: :shared
-gem 'gitlab-experiment', '~> 0.9.1', feature_category: :shared
+gem 'gitlab-experiment', '~> 1.0.0', feature_category: :shared
 
 # Structured logging
 gem 'lograge', '~> 0.5', feature_category: :shared
