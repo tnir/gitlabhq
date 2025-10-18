@@ -26,9 +26,9 @@ gem 'bundler-checksum', '~> 0.1.0', path: 'gems/bundler-checksum', require: fals
 # See https://docs.gitlab.com/ee/development/gemfile.html#upgrade-rails for guidelines when upgrading Rails
 
 if next?
-  gem 'rails', '~> 7.2.2.2', feature_category: :shared
+  gem 'rails', '~> 7.2.0.0', feature_category: :shared
 else
-  gem 'rails', '~> 7.1.5.2', feature_category: :shared
+  gem 'rails', '~> 7.2.0.0', feature_category: :shared
 end
 
 gem 'activerecord-gitlab', path: 'gems/activerecord-gitlab', feature_category: :shared
@@ -61,9 +61,9 @@ gem 'gitlab-backup-cli', path: 'gems/gitlab-backup-cli', require: 'gitlab/backup
 gem 'gitlab-secret_detection', '< 1.0', feature_category: :secret_detection
 
 # Responders respond_to and respond_with
-gem 'responders', '~> 3.0', feature_category: :shared
+gem 'responders', '~> 3.1', '>= 3.1.0', feature_category: :shared
 
-gem 'sprockets', '~> 3.7.0', feature_category: :shared
+gem 'sprockets', '~> 4.0.0', feature_category: :shared
 gem 'sprockets-rails', '~>  3.5.1', feature_category: :shared
 
 gem 'view_component', '~> 3.23.2', feature_category: :shared
@@ -97,14 +97,14 @@ gem 'doorkeeper-device_authorization_grant', '~> 1.0.0', feature_category: :syst
 gem 'rexml', '~> 3.4.0', feature_category: :shared
 gem 'ruby-saml', '~> 1.18', feature_category: :system_access
 gem 'omniauth-saml', '~> 2.2.1', feature_category: :system_access
-gem 'omniauth', '~> 2.1.0', feature_category: :system_access
+gem 'omniauth', '~> 2.1.4', feature_category: :system_access
 gem 'omniauth-auth0', '~> 3.1', feature_category: :system_access
-gem 'omniauth-azure-activedirectory-v2', '~> 2.0', feature_category: :system_access
+gem 'omniauth-azure-activedirectory-v2', '~> 2.0', '>= 2.0.1', feature_category: :system_access
 gem 'omniauth-alicloud', '~> 3.0.0', feature_category: :system_access
 gem 'omniauth-github', '2.0.1', feature_category: :system_access
 # See vendor/gems/omniauth-gitlab/README.md
 gem 'omniauth-gitlab', '~> 4.0.0', path: 'vendor/gems/omniauth-gitlab', feature_category: :system_access
-gem 'omniauth-google-oauth2', '~> 1.1', feature_category: :system_access
+gem 'omniauth-google-oauth2', '~> 1.1', '>= 1.1.2', feature_category: :system_access
 gem 'omniauth-oauth2-generic', '~> 0.2.2', feature_category: :system_access
 gem 'omniauth-shibboleth-redux', '~> 2.0', require: 'omniauth-shibboleth', feature_category: :system_access
 # See vendor/gems/omniauth_crowd/README.md
@@ -129,7 +129,7 @@ gem 'akismet', '~> 3.0', feature_category: :insider_threat
 gem 'invisible_captcha', '~> 2.3.0', feature_category: :insider_threat
 
 # Two-factor authentication
-gem 'devise-two-factor', '~> 4.1.1', feature_category: :system_access
+gem 'devise-two-factor', '~> 5.0.0', feature_category: :system_access
 gem 'rqrcode', '~> 2.2', feature_category: :system_access
 
 gem 'attr_encrypted', '~> 4.2', feature_category: :shared
@@ -156,12 +156,12 @@ gem 'gitlab_omniauth-ldap', '~> 2.3.0', require: 'omniauth-ldap', feature_catego
 gem 'net-ldap', '~> 0.17.1', feature_category: :system_access
 
 # API
-gem 'grape', '~> 2.0.0', feature_category: :api
+gem 'grape', '~> 2.1.0', feature_category: :api
 gem 'grape-entity', '~> 1.0.1', feature_category: :api
 gem 'grape-swagger', '~> 2.1.2', group: [:development, :test], feature_category: :api
-gem 'grape-swagger-entity', '~> 0.5.5', group: [:development, :test], feature_category: :api
+gem 'grape-swagger-entity', '~> 0.6.0', group: [:development, :test], feature_category: :api
 gem 'grape-path-helpers', '~> 2.0.1', feature_category: :api
-gem 'rack-cors', '~> 2.0.1', require: 'rack/cors', feature_category: :shared
+gem 'rack-cors', '~> 3.0.0', require: 'rack/cors', feature_category: :shared
 
 # GraphQL API
 gem 'graphql', '2.5.11', feature_category: :api
@@ -282,7 +282,7 @@ gem 'diffy', '~> 3.4', feature_category: :shared
 gem 'diff_match_patch', '~> 0.1.0', path: 'vendor/gems/diff_match_patch', feature_category: :team_planning
 
 # Application server
-gem 'rack', '~> 2.2.9', feature_category: :shared
+gem 'rack', '~> 2.2.20', feature_category: :shared
 # https://github.com/zombocom/rack-timeout/blob/master/README.md#rails-apps-manually
 gem 'rack-timeout', '~> 0.7.0', require: 'rack/timeout/base', feature_category: :shared
 
@@ -296,7 +296,7 @@ gem 'state_machines-activerecord', '~> 0.8.0', feature_category: :shared
 
 # Background jobs
 gem 'sidekiq', path: 'vendor/gems/sidekiq', require: 'sidekiq', feature_category: :scalability
-gem 'sidekiq-cron', '~> 1.12.0', feature_category: :scalability
+gem 'sidekiq-cron', '~> 2.0.0', feature_category: :scalability
 gem 'gitlab-sidekiq-fetcher',
   path: 'vendor/gems/sidekiq-reliable-fetch',
   require: 'sidekiq-reliable-fetch',
@@ -388,12 +388,12 @@ gem 'base32', '~> 0.3.0', feature_category: :shared
 gem 'gitlab-license', '~> 2.6', feature_category: :shared
 
 # Protect against bruteforcing
-gem 'rack-attack', '~> 6.7.0', feature_category: :shared
+gem 'rack-attack', '~> 6.8.0', feature_category: :shared
 
 # Sentry integration
 gem 'sentry-ruby', '~> 5.23.0', feature_category: :observability
-gem 'sentry-rails', '~> 5.23.0', feature_category: :observability
-gem 'sentry-sidekiq', '~> 5.23.0', feature_category: :observability
+gem 'sentry-rails', '~> 5.24.0', feature_category: :observability
+gem 'sentry-sidekiq', '~> 5.24.0', feature_category: :observability
 
 # PostgreSQL query parsing
 #
@@ -403,11 +403,11 @@ gem 'gitlab-schema-validation', path: 'gems/gitlab-schema-validation', feature_c
 gem 'gitlab-http', path: 'gems/gitlab-http', feature_category: :shared
 
 gem 'premailer-rails', '~> 1.12.0', feature_category: :notifications
-gem 'gitlab-labkit', '~> 0.40.0', feature_category: :shared
+gem 'gitlab-labkit', '~> 0.41.0', feature_category: :shared
 gem 'thrift', '~> 0.22.0', feature_category: :shared
 
 # I18n
-gem 'rails-i18n', '~> 7.0', '>= 7.0.9', feature_category: :internationalization
+gem 'rails-i18n', '~> 8.0', '>= 8.0.0', feature_category: :internationalization
 gem 'gettext_i18n_rails', '~> 1.13.0', feature_category: :internationalization
 gem 'gettext', '~> 3.5', '>= 3.5.1',
   require: false,
@@ -481,7 +481,7 @@ group :development do
   gem 'solargraph-rspec', '~> 0.5.1', require: false, feature_category: :shared
 
   gem 'letter_opener_web', '~> 3.0.0', feature_category: :shared
-  gem 'lookbook', '~> 2.3', feature_category: :shared
+  gem 'lookbook', '~> 2.3', '>= 2.3.5', feature_category: :shared
 
   # Better errors handler
   gem 'better_errors', '~> 2.10.1', feature_category: :shared
@@ -515,8 +515,8 @@ group :development, :test do
   gem 'awesome_print', require: false, feature_category: :shared
 
   gem 'database_cleaner-active_record', '~> 2.2.0', feature_category: :database
-  gem 'rspec-rails', '~> 7.1.0', feature_category: :shared
-  gem 'factory_bot_rails', '~> 6.5.0', feature_category: :tooling
+  gem 'rspec-rails', '~> 8.0.0', feature_category: :shared
+  gem 'factory_bot_rails', '~> 6.5.1', feature_category: :tooling
 
   # Prevent occasions where minitest is not bundled in packaged versions of ruby (see #3826)
   gem 'minitest', '~> 5.11.0', feature_category: :shared
@@ -543,7 +543,7 @@ group :development, :test do
 
   gem 'sigdump', '~> 0.2.4', require: 'sigdump/setup', feature_category: :shared
 
-  gem 'pact', '~> 1.64', feature_category: :shared
+  gem 'pact', '~> 1.65', '>= 1.65.0', feature_category: :shared
 
   gem 'gitlab-housekeeper', path: 'gems/gitlab-housekeeper', feature_category: :tooling
 
@@ -621,7 +621,7 @@ gem 'rbtrace', '~> 0.4', require: false, feature_category: :shared
 gem 'memory_profiler', '~> 1.0', require: false, feature_category: :shared
 
 # OAuth
-gem 'oauth2', '~> 2.0', feature_category: :system_access
+gem 'oauth2', '~> 2.0', '>= 2.0.11', feature_category: :system_access
 
 # Health check
 gem 'health_check', '~> 3.0', feature_category: :shared
@@ -656,11 +656,11 @@ gem 'flipper', '~> 0.28.0', feature_category: :shared
 gem 'flipper-active_record', '~> 0.28.0', feature_category: :shared
 gem 'flipper-active_support_cache_store', '~> 0.28.0', feature_category: :shared
 gem 'unleash', '~> 3.2.2', feature_category: :shared
-gem 'gitlab-experiment', '~> 0.9.1', feature_category: :shared
+gem 'gitlab-experiment', '~> 1.0.0', feature_category: :shared
 
 # Structured logging
-gem 'lograge', '~> 0.5', feature_category: :shared
-gem 'grape_logging', '~> 1.8', '>= 1.8.4', feature_category: :api
+gem 'lograge', '~> 0.12', '>= 0.12.0', feature_category: :shared
+gem 'grape_logging', '~> 2.0', '>= 2.0.0', feature_category: :api
 
 # DNS Lookup
 gem 'gitlab-net-dns', '~> 0.15.0', feature_category: :shared
