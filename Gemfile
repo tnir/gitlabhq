@@ -100,7 +100,7 @@ gem 'doorkeeper-device_authorization_grant', '~> 1.0.0', feature_category: :syst
 gem 'rexml', '~> 3.4.0', feature_category: :shared
 gem 'ruby-saml', '~> 1.18', feature_category: :system_access
 gem 'omniauth-saml', '~> 2.2.1', feature_category: :system_access
-gem 'omniauth', '~> 2.1.0', feature_category: :system_access
+gem 'omniauth', '~> 2.1.4', feature_category: :system_access
 gem 'omniauth-auth0', '~> 3.1', feature_category: :system_access
 gem 'omniauth-azure-activedirectory-v2', '~> 2.0', feature_category: :system_access
 gem 'omniauth-alicloud', '~> 3.0.0', feature_category: :system_access
