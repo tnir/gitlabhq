@@ -170,7 +170,7 @@ gem 'rack-cors', '~> 2.0.1', require: 'rack/cors', feature_category: :shared
 # GraphQL API
 gem 'graphql', '2.5.11', feature_category: :api
 gem 'graphql-docs', '~> 5.2.0', group: [:development, :test], feature_category: :api
-gem 'apollo_upload_server', '~> 2.1.6', feature_category: :api
+gem 'apollo_upload_server', '~> 2.1.7', feature_category: :api
 
 # Cells
 gem 'gitlab-topology-service-client', '~> 0.1',
@@ -387,7 +387,7 @@ gem 'terser', '1.0.2', feature_category: :shared
 
 gem 'click_house-client', '0.8.2', feature_category: :database
 gem 'addressable', '~> 2.8', feature_category: :shared
-gem 'gon', '~> 6.5.0', feature_category: :shared
+gem 'gon', '~> 6.6.0', feature_category: :shared
 gem 'request_store', '~> 1.7.0', feature_category: :shared
 gem 'base32', '~> 0.3.0', feature_category: :shared
 gem 'gitlab-license', '~> 2.6', feature_category: :shared
@@ -408,7 +408,7 @@ gem 'gitlab-schema-validation', path: 'gems/gitlab-schema-validation', feature_c
 gem 'gitlab-http', path: 'gems/gitlab-http', feature_category: :shared
 
 gem 'premailer-rails', '~> 1.12.0', feature_category: :notifications
-gem 'gitlab-labkit', '~> 0.42.2', feature_category: :shared
+gem 'gitlab-labkit', '~> 1.0.0', feature_category: :shared
 gem 'thrift', '~> 0.22.0', feature_category: :shared
 
 # I18n
