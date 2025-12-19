@@ -242,7 +242,7 @@ gem 'elasticsearch-rails', '~> 7.2', require: 'elasticsearch/rails/instrumentati
 gem 'elasticsearch-api', '7.17.11', feature_category: :global_search
 gem 'aws-sdk-core', '~> 3.226.0', feature_category: :global_search
 gem 'aws-sdk-cloudformation', '~> 1', feature_category: :global_search
-gem 'aws-sdk-s3', '~> 1.193.0', feature_category: :global_search
+gem 'aws-sdk-s3', '~> 1.208.0', feature_category: :global_search
 gem 'faraday-typhoeus', '~> 1.1', feature_category: :global_search
 gem 'faraday_middleware-aws-sigv4', '~> 1.0.1', feature_category: :global_search
 # Used with Elasticsearch to support http keep-alive connections
@@ -479,7 +479,7 @@ group :development do
   gem 'solargraph-rspec', '~> 0.5.1', require: false, feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
 
   gem 'letter_opener_web', '~> 3.0.0', feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
-  gem 'lookbook', '~> 2.3', feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
+  gem 'lookbook', '~> 2.3', '>= 2.3.14', feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
 
   gem 'sprite-factory', '~> 1.7', feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
 
@@ -651,7 +651,7 @@ gem 'flipper', '~> 0.28.0', feature_category: :shared # rubocop:todo Gemfile/Mis
 gem 'flipper-active_record', '~> 0.28.0', feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
 gem 'flipper-active_support_cache_store', '~> 0.28.0', feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
 gem 'unleash', '~> 3.2.2', feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
-gem 'gitlab-experiment', '~> 1.1.0', feature_category: :acquisition
+gem 'gitlab-experiment', '~> 1.2.0', feature_category: :acquisition
 
 # Structured logging
 gem 'lograge', '~> 0.5', feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
