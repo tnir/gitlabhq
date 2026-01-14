@@ -405,7 +405,7 @@ gem 'gitlab-labkit', '~> 1.0.0', feature_category: :shared # rubocop:todo Gemfil
 gem 'thrift', '~> 0.22.0', feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
 
 # I18n
-gem 'rails-i18n', '~> 7.0', '>= 7.0.9', feature_category: :internationalization
+gem 'rails-i18n', '~> 8.0', '>= 8.0.0', feature_category: :internationalization
 gem 'gettext_i18n_rails', '~> 1.13.0', feature_category: :internationalization
 gem 'gettext', '~> 3.5', '>= 3.5.1',
   require: false,
