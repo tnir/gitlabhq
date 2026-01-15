@@ -252,7 +252,7 @@ gem 'gitlab-active-context', path: 'gems/gitlab-active-context', require: 'activ
   feature_category: :global_search
 
 # Markdown and HTML processing
-gem 'html-pipeline', '~> 2.14.3', feature_category: :markdown
+gem 'html-pipeline', '~> 3.0.0', feature_category: :markdown
 gem 'deckar01-task_list', '2.3.4', feature_category: :markdown
 gem 'gitlab-markup', '~> 2.0.0', require: 'github/markup', feature_category: :markdown
 gem 'commonmarker', '~> 0.23.10', feature_category: :markdown
