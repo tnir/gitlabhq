@@ -75,8 +75,8 @@ gem 'pg', '~> 1.6.1', feature_category: :database
 
 gem 'rugged', '~> 1.6', feature_category: :gitaly
 
-gem 'faraday', '~> 2', feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
-gem 'faraday-retry', '~> 2', feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
+gem 'faraday', '~> 2', '>= 2.14.1', feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
+gem 'faraday-retry', '~> 2', '>= 2.3.0', feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
 # Logger is a dependency of Faraday, but Logger 1.6.0 does not work with Chef.
 gem 'logger', '~> 1.7.0', feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
 
@@ -101,7 +101,7 @@ gem 'ruby-saml', '~> 1.18', feature_category: :system_access
 gem 'omniauth-saml', '~> 2.2.1', feature_category: :system_access
 gem 'omniauth', '~> 2.1.0', feature_category: :system_access
 gem 'omniauth-auth0', '~> 3.1', feature_category: :system_access
-gem 'omniauth-azure-activedirectory-v2', '~> 2.0', feature_category: :system_access
+gem 'omniauth-azure-activedirectory-v2', '~> 2.0', '>= 2.0.1', feature_category: :system_access
 gem 'omniauth-alicloud', '~> 3.0.0', feature_category: :system_access
 gem 'omniauth-github', '2.0.1', feature_category: :system_access
 # See vendor/gems/omniauth-gitlab/README.md
@@ -118,7 +118,7 @@ gem 'openid_connect', '~> 2.3.0', feature_category: :system_access
 # See gem README.md
 gem 'omniauth-salesforce', '~> 1.0.5', path: 'vendor/gems/omniauth-salesforce', feature_category: :system_access
 gem 'omniauth-atlassian-oauth2', '~> 0.2.0', feature_category: :system_access
-gem 'rack-oauth2', '~> 2.2.1', feature_category: :system_access
+gem 'rack-oauth2', '~> 2.3.0', feature_category: :system_access
 gem 'jwt', '~> 2.10.0', feature_category: :system_access
 
 # Kerberos authentication. EE-only
@@ -206,7 +206,7 @@ gem 'prawn-svg', feature_category: :vulnerability_management
 # for backups
 gem 'fog-aws', '~> 3.26', feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
 gem 'fog-core', '~> 2.5', feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
-gem 'fog-google', '~> 1.29.0', require: 'fog/google', feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
+gem 'fog-google', '~> 1.29.4', require: 'fog/google', feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
 gem 'fog-local', '~> 0.8', feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
 # NOTE:
 # the fog-aliyun gem since v0.4 pulls in aliyun-sdk transitively, which monkey-patches
@@ -221,29 +221,29 @@ gem 'gitlab-fog-azure-rm', '~> 2.4.0', require: 'fog/azurerm', feature_category:
 
 # Need this specific version of google-apis-storage_v1 so that fog-google will utilize the updated list_objects with
 # match_glob support in google-apis-core 0.11.1. Because of this we also have to bump google-cloud-storage to 1.45.0.
-gem 'google-apis-storage_v1', '~> 0.29', feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
-gem 'google-cloud-storage', '~> 1.57.0', feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
+gem 'google-apis-storage_v1', '~> 0.57', '>= 0.57.0', feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
+gem 'google-cloud-storage', '~> 1.57.1', feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
 # We need >= 0.11.1 because that's when match_glob support is added to list_objects
-gem 'google-apis-core', '~> 0.18.0', '>= 0.18.0', feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
-gem 'google-apis-compute_v1', '~> 0.129.0', feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
-gem 'google-apis-container_v1', '~> 0.100.0', feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
-gem 'google-apis-container_v1beta1', '~> 0.91.0', feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
-gem 'google-apis-cloudbilling_v1', '~> 0.22.0', feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
+gem 'google-apis-core', '~> 1.0.0', feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
+gem 'google-apis-compute_v1', '~> 0.130.0', feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
+gem 'google-apis-container_v1', '~> 0.101.0', feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
+gem 'google-apis-container_v1beta1', '~> 0.92.0', feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
+gem 'google-apis-cloudbilling_v1', '~> 0.23.0', feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
 gem 'google-apis-cloudresourcemanager_v1', '~> 0.44.0', feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
-gem 'google-apis-iam_v1', '~> 0.79.0', feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
-gem 'google-apis-serviceusage_v1', '~> 0.28.0', feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
-gem 'google-apis-sqladmin_v1beta4', '~> 0.41.0', feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
-gem 'google-apis-androidpublisher_v3', '~> 0.92.0', feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
+gem 'google-apis-iam_v1', '~> 0.80.0', feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
+gem 'google-apis-serviceusage_v1', '~> 0.29.0', feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
+gem 'google-apis-sqladmin_v1beta4', '~> 0.42.0', feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
+gem 'google-apis-androidpublisher_v3', '~> 0.93.0', feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
 
-gem 'googleauth', '~> 1.14', feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
-gem 'google-cloud-artifact_registry-v1', '~> 0.11.0', feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
-gem 'google-cloud-compute-v1', '~> 2.6.0', feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
+gem 'googleauth', '~> 1.15', '>= 1.15.0', feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
+gem 'google-cloud-artifact_registry-v1', '~> 0.12.0', feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
+gem 'google-cloud-compute-v1', '~> 2.7.0', feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
 
 # Seed data
 gem 'seed-fu', '~> 2.3.7', feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
 
 # Search
-gem 'elasticsearch-model', '~> 7.2', feature_category: :global_search
+gem 'elasticsearch-model', '~> 8.0', '>= 8.0.0', feature_category: :global_search
 gem 'elasticsearch-rails', '~> 7.2', require: 'elasticsearch/rails/instrumentation', feature_category: :global_search
 gem 'elasticsearch-api', '7.17.11', feature_category: :global_search
 gem 'aws-sdk-core', '~> 3.226.0', feature_category: :global_search
@@ -588,7 +588,7 @@ group :test do
   # Upload CI metrics to a GCP BigQuery instance
   #
   # We only use this gem in CI.
-  gem 'google-cloud-bigquery', '~> 1.0', feature_category: :tooling
+  gem 'google-cloud-bigquery', '~> 1.53', '>= 1.53.0', feature_category: :tooling
 
   gem 'shoulda-matchers', '~> 6.4.0', require: false, feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
   gem 'email_spec', '~> 2.3.0', feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
@@ -607,7 +607,7 @@ group :test do
   gem 'gitlab_quality-test_tooling', '~> 3.7.1', require: false, feature_category: :tooling
 end
 
-gem 'octokit', '~> 9.0', feature_category: :importers
+gem 'octokit', '~> 10.0', '>= 10.0.0', feature_category: :importers
 # Needed by octokit: https://github.com/octokit/octokit.rb/pull/1688
 gem 'faraday-multipart', '~> 1.0', feature_category: :importers
 
@@ -621,7 +621,7 @@ gem 'rbtrace', '~> 0.4', require: false, feature_category: :shared # rubocop:tod
 gem 'memory_profiler', '~> 1.0', require: false, feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
 
 # OAuth
-gem 'oauth2', '~> 2.0', feature_category: :system_access
+gem 'oauth2', '~> 2.0', '>= 2.0.11', feature_category: :system_access
 
 # Health check
 gem 'health_check', '~> 3.0', feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
