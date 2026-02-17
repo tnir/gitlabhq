@@ -63,7 +63,7 @@ PATH
       mutex_m (~> 0.3)
       parallel (~> 1.19)
       pg (~> 1.6.1)
-      rack (~> 2.2.9)
+      rack (>= 2.2.9, < 3.3.0)
       rainbow (~> 3.0)
       rexml (~> 3.4.0)
       thor (~> 1.3)
@@ -114,7 +114,7 @@ PATH
   remote: gems/gitlab-safe_request_store
   specs:
     gitlab-safe_request_store (0.1.0)
-      rack (~> 2.2.8)
+      rack (>= 2.2.8, < 3.3.0)
       request_store
 
 PATH
@@ -1555,7 +1555,7 @@ GEM
     pyu-ruby-sasl (0.0.3.3)
     raabro (1.4.0)
     racc (1.8.1)
-    rack (2.2.21)
+    rack (2.2.22)
     rack-accept (0.4.5)
       rack (>= 0.4)
     rack-attack (6.8.0)
@@ -2368,7 +2368,7 @@ DEPENDENCIES
   pry-rails (~> 0.3.9)
   pry-shell (~> 0.6.4)
   puma (~> 7.1)
-  rack (~> 2.2.9)
+  rack (~> 2.2.22)
   rack-attack (~> 6.8.0)
   rack-cors (~> 2.0.1)
   rack-oauth2 (~> 2.2.1)
