@@ -248,7 +248,7 @@ gem 'elasticsearch-rails', '~> 7.2', require: 'elasticsearch/rails/instrumentati
 gem 'elasticsearch-api', '7.17.11', feature_category: :global_search
 gem 'aws-sdk-core', '~> 3.226.0', feature_category: :global_search
 gem 'aws-sdk-cloudformation', '~> 1', feature_category: :global_search
-gem 'aws-sdk-s3', '~> 1.193.0', feature_category: :global_search
+gem 'aws-sdk-s3', '~> 1.208.0', feature_category: :global_search
 gem 'faraday-typhoeus', '~> 1.1', feature_category: :global_search
 gem 'faraday_middleware-aws-sigv4', '~> 1.0.1', feature_category: :global_search
 # Used with Elasticsearch to support http keep-alive connections
@@ -484,7 +484,7 @@ group :development do
   gem 'solargraph-rspec', '~> 0.5.1', require: false, feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
 
   gem 'letter_opener_web', '~> 3.0.0', feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
-  gem 'lookbook', '~> 2.3', feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
+  gem 'lookbook', '~> 2.3', '>= 2.3.14', feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
 
   gem 'sprite-factory', '~> 1.7', feature_category: :shared # rubocop:todo Gemfile/MissingFeatureCategory -- https://gitlab.com/gitlab-org/gitlab/-/issues/581839
 
