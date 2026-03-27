@@ -2385,7 +2385,7 @@ DEPENDENCIES
   net-ntp
   net-protocol (~> 0.2.2)
   nkf (~> 0.2.0)
-  nokogiri (~> 1.18)
+  nokogiri (~> 1.19)
   oauth2 (~> 2.0)
   octokit (~> 9.0)
   ohai (~> 19.1.16)
