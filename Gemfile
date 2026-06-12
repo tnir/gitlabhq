@@ -159,7 +159,7 @@ gem 'rack-cors', '~> 2.0.1', require: 'rack/cors', feature_category: :api
 # GraphQL API
 gem 'graphql', '2.5.23', feature_category: :api
 gem 'graphql-docs', '~> 5.2.0', group: [:development, :test], feature_category: :api
-gem 'apollo_upload_server', '~> 2.1.6', feature_category: :api
+gem 'apollo_upload_server', '~> 2.1.8', feature_category: :api
 
 # Cells
 gem 'gitlab-topology-service-client', '~> 0.1',
